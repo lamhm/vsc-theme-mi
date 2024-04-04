@@ -1,21 +1,33 @@
 {
-  "name": "monokai-sharp",
-  "displayName": "Monokai Sharp",
-  "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
-  "version": "24.4.1",
-  "engines": {
-    "vscode": "^1.87.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Monokai Sharp",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Monokai Sharp-color-theme.json"
-      }
-    ]
-  }
+    "name": "monokai-sharp",
+    "displayName": "Monokai Sharp",
+    "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
+    "version": "24.4.1",
+    "author": "Ha Minh Lam",
+    "publisher": "Ha Minh Lam",
+    "license": "MIT",
+    "scripts": {
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "homepage": "https://github.com/lamhm/monokai-sharp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lamhm/monokai-sharp.git"
+    },
+    "engines": {
+        "vscode": "^1.87.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Sharp",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai Sharp-color-theme.json"
+            }
+        ]
+    }
 }
