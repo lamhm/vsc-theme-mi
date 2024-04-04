@@ -10,10 +10,10 @@
         "package": "vsce package",
         "publish": "vsce publish"
     },
-    "homepage": "https://github.com/lamhm/monokai-sharp",
+    "homepage": "https://github.com/lamhm/vsc-theme-nebula",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lamhm/monokai-sharp.git"
+        "url": "https://github.com/lamhm/vsc-theme-nebula.git"
     },
     "engines": {
         "vscode": "^1.87.0"
