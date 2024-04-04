@@ -1,0 +1,165 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "" // to fix issue: vscode does not respect conda environment in debugger console
+    },
+    "autoDocstring.quoteStyle": "\"\"\"",
+    "autoDocstring.startOnNewLine": true,
+    "editor.rulers": [
+        100
+    ],
+    "editor.tabSize": 4,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.variableExplorerExclude": "module;function;builtin_function_or_method;type;_SpecialForm;_GenericAlias;NoneType;KedroSession;MetaHasTraits",
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.conda/bin/python",
+    "python.poetryPath": "${workspaceFolder}/.conda/bin/poetry",
+    "python.testing.pytestPath": "${workspaceFolder}/.conda/bin/pytest",
+    "editor.formatOnSave": false, // enable per language
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+    "yaml.format.printWidth": 100,
+    "markdown.extension.completion.root": "${workspaceFolder}",
+    "explorer.copyRelativePathSeparator": "/",
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "none" // this is already taken care by flake8
+    },
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "yaml.format.singleQuote": false,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
+    "files.exclude": {
+        ".telemetry": true,
+        ".run": true,
+        ".pytest*": true,
+        "*/.*": true,
+        ".env": false,
+        ".coveragerc": true,
+        "**/.idea": true,
+        "**/__pycache__": true,
+        ".idea/shelf/": true,
+        ".idea/workspace.xml": true,
+        "**/.gitkeep": true,
+        "**/.idea/": true,
+        "**/*.iml": true,
+        "**/out/": true,
+        "**/.idea_modules/": true,
+        "**/*.DS_Store": true,
+        "**/.AppleDouble": true,
+        "**/.LSOverride": true,
+        "**/.Trashes": true,
+        "**/.*.swo": true,
+        "**/.*.swp": true,
+        "**/\\#*\\#": true,
+        ".emacs.desktop": true,
+        ".emacs.desktop.lock": true,
+        "**/*.elc": true,
+        "**/atlassian-ide-plugin.xml": true,
+        "**/*.so": true,
+        "**/__pycache__/": true,
+        "**/*.py[cod]": true,
+        "**/*$py.class": true,
+        "**/.Python": true,
+        "**/build/": true,
+        "**/develop-eggs/": true,
+        "**/dist/": true,
+        "**/downloads/": true,
+        "**/eggs/": true,
+        "**/.eggs/": true,
+        "**/lib/": true,
+        "**/lib64/": true,
+        "**/parts/": true,
+        "**/sdist/": true,
+        "**/var/": true,
+        "**/wheels/": true,
+        "**/*.egg-info/": true,
+        "**/.installed.cfg": true,
+        "**/*.egg": true,
+        "**/MANIFEST": true,
+        "**/*.manifest": true,
+        "**/*.spec": true,
+        "**/pip-log.txt": true,
+        "**/pip-delete-this-directory.txt": true,
+        "**/htmlcov/": true,
+        "**/.tox/": true,
+        "**/.coverage": true,
+        "**/.coverage.*": true,
+        "**/.cache": true,
+        "**/nosetests.xml": true,
+        "**/coverage.xml": true,
+        "**/*.cover": true,
+        "**/.hypothesis/": true,
+        "**/*.mo": true,
+        "**/*.pot": true,
+        "**/.static_storage/": true,
+        "**/.media/": true,
+        "**/local_settings.py": true,
+        "**/instance/": true,
+        "**/.webassets-cache": true,
+        "**/.scrapy": true,
+        "**/docs/_build/": true,
+        "**/target/": true,
+        "**/.ipynb_checkpoints": true,
+        ".ipython/profile_default/history.sqlite": true,
+        ".ipython/profile_default/startup/README": true,
+        "**/.python-version": true,
+        "**/celerybeat-schedule": true,
+        "**/*.sage.py": true,
+        "**/.venv": true,
+        "**/.conda-env/": true,
+        "**/.conda/": true,
+        "**/env/": true,
+        "**/venv/": true,
+        "**/ENV/": true,
+        "**/env.bak/": true,
+        "**/venv.bak/": true,
+        "site": true,
+        "**/.mypy_cache/": true
+    },
+    "markdown.extension.toc.levels": "2..4",
+    "markdown.extension.toc.unorderedList.marker": "*",
+    "markdown.extension.toc.omittedFromToc": {
+        "README.md": [
+            "## Contents",
+            "## Table of Contents"
+        ]
+    },
+    "pylint.args": [
+        "--config=${workspaceFolder}/setup.cfg",
+        "--builtins=catalog,context,session,pipelines"
+    ],
+    "isort.path": [
+        "${workspaceFolder}/.conda/bin/isort"
+    ],
+    "black-formatter.path": [
+        "${workspaceFolder}/.conda/bin/black"
+    ],
+    "black-formatter.args": [
+        "--config=${workspaceFolder}/pyproject.toml"
+    ],
+    "flake8.path": [
+        "${workspaceFolder}/.conda/bin/flake8"
+    ],
+    "flake8.args": [
+        "--config=${workspaceFolder}/setup.cfg",
+        "--builtins=catalog,context,session,pipelines"
+    ],
+    "pylint.path": [
+        "${workspaceFolder}/.conda/bin/pylint"
+    ],
+    "jupyter.interactiveWindow.textEditor.magicCommandsAsComments": true,
+}
