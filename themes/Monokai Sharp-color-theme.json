@@ -1447,7 +1447,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#c3c3c3"
+                "foreground": "#ffaa00"
             }
         },
         {
@@ -1532,31 +1532,31 @@
         {
             "scope": "variable.other.object",
             "settings": {
-                "foreground": "#8BB4F7"
+                "foreground": "#4ee2fc"
             }
         },
         {
             "scope": "token.info-token",
             "settings": {
-                "foreground": "#6796E6"
+                "foreground": "#4ee2fc"
             }
         },
         {
             "scope": "token.warn-token",
             "settings": {
-                "foreground": "#CD9731"
+                "foreground": "#ffaa00"
             }
         },
         {
             "scope": "token.error-token",
             "settings": {
-                "foreground": "#F44747"
+                "foreground": "#fc617d"
             }
         },
         {
             "scope": "token.debug-token",
             "settings": {
-                "foreground": "#B267E6"
+                "foreground": "#d973fc"
             }
         }
     ]
