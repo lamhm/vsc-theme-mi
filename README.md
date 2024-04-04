@@ -1,4 +1,4 @@
-# Nebula Theme
+# MI Theme
 
 This is a colour theme for Visual Studio Code that is based on the
 [Monokai Accent theme](https://github.com/tw-studio/monokai-accent) and the

@@ -1,6 +1,6 @@
 {
-    "name": "nebula-theme",
-    "displayName": "Nebula",
+    "name": "mi-theme",
+    "displayName": "MI Theme",
     "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
     "version": "24.4.1",
     "author": "Ha Minh Lam",
@@ -10,10 +10,10 @@
         "package": "vsce package",
         "publish": "vsce publish"
     },
-    "homepage": "https://github.com/lamhm/vsc-theme-nebula",
+    "homepage": "https://github.com/lamhm/vsc-theme-mi",
     "repository": {
         "type": "git",
-        "url": "https://github.com/lamhm/vsc-theme-nebula.git"
+        "url": "https://github.com/lamhm/vsc-theme-mi.git"
     },
     "engines": {
         "vscode": "^1.87.0"
@@ -26,7 +26,7 @@
             {
                 "label": "Nebula",
                 "uiTheme": "vs-dark",
-                "path": "./themes/nebula-theme.json"
+                "path": "./themes/mi-theme.json"
             }
         ]
     }
