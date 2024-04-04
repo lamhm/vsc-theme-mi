@@ -2,7 +2,7 @@
   "name": "monokai-sharp",
   "displayName": "Monokai Sharp",
   "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
-  "version": "2024.04.01",
+  "version": "24.4.1",
   "engines": {
     "vscode": "^1.87.0"
   },
