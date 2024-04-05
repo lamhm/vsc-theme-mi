@@ -3,5 +3,6 @@
 .gitignore
 .conda/
 .conda-env/
+archives/
 ops/
 vsc-extension-quickstart.md
