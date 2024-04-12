@@ -367,11 +367,11 @@
         },
         "property": {
             "foreground": "#90ff5b",
-            "fontStyle": "italic"
+            "fontStyle": ""
         },
         "field": {
             "foreground": "#90ff5b",
-            "fontStyle": ""
+            "fontStyle": "italic"
         },
         "event": {
             "foreground": "#90ff5b",
@@ -381,8 +381,18 @@
             "foreground": "#90ff5b",
             "fontStyle": "underline"
         },
+        "function": {
+            "foreground": "#90ff5b",
+            "fontStyle": "underline"
+        },
         "parameter": {
             "foreground": "#ffa444"
+        },
+        "selfParameter": {
+            "fontStyle": "italic",
+        },
+        "clsParameter": {
+            "fontStyle": "italic",
         },
         "enumMember": {
             "foreground": "#d090ff",
@@ -391,6 +401,10 @@
         "constant": {
             "foreground": "#d090ff",
             "fontStyle": ""
+        },
+        "*.decorator": {
+            "foreground": "#5ee2ffaa",
+            "fontStyle": "italic",
         },
     },
     "tokenColors": [
