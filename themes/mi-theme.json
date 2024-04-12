@@ -349,6 +349,10 @@
             "foreground": "#5ee2ff",
             "fontStyle": "",
         },
+        "delegate": {
+            "foreground": "#5ee2ff",
+            "fontStyle": "italic",
+        },
         "operatorOverloaded": {
             "foreground": "#ff2672",
             "fontStyle": ""
