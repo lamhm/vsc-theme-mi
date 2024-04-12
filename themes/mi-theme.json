@@ -2,6 +2,7 @@
     "name": "MI",
     "type": "dark",
     "semanticHighlighting": true,
+    "$schema": "vscode://schemas/color-theme",
     "colors": {
         // Primary color: #ae2463
         // Highlight color: "#f5539e"
@@ -68,7 +69,7 @@
         "editor.wordHighlightStrongBorder": "#eec2d766",
         "editorBracketMatch.background": "#eec2d722",
         "editorBracketMatch.border": "#eec2d744",
-        "editorCodeLens.foreground": "#f6f6f666",
+        "editorCodeLens.foreground": "#666666",
         "editorCursor.background": "#2a2a2a",
         "editorCursor.foreground": "#b6b6b6",
         "editorError.foreground": "#ff2672",
@@ -92,7 +93,7 @@
         "editorLightBulbAutoFix.foreground": "#00809b",
         "editorLineNumber.foreground": "#666666",
         "editorLink.activeForeground": "#f5539e",
-        "editorMarkerNavigation.background": "#2a2a2a",
+        "editorMarkerNavigation.background": "#211d1d",
         "editorMarkerNavigationError.background": "#ff2672",
         "editorMarkerNavigationInfo.background": "#00809b",
         "editorMarkerNavigationWarning.background": "#ffff77",
@@ -142,14 +143,14 @@
         "gitDecoration.submoduleResourceForeground": "#777777",
         "gitDecoration.untrackedResourceForeground": "#90ff5b",
         "gitlens.gutterBackgroundColor": "#303030",
-        "gitlens.gutterForegroundColor": "#f6f6f666",
+        "gitlens.gutterForegroundColor": "#666666",
         "gitlens.gutterUncommittedForegroundColor": "#666666",
         "gitlens.lineHighlightBackgroundColor": "#90ff5b22",
         "gitlens.lineHighlightOverviewRulerColor": "#90ff5b22",
         "icon.foreground": "#cccccc",
         "input.background": "#1f1f1f",
         "input.border": "#444444",
-        "input.placeholderForeground": "#f6f6f666",
+        "input.placeholderForeground": "#666666",
         "inputOption.activeBorder": "#ae2463",
         "inputValidation.errorBackground": "#ff2672",
         "inputValidation.errorForeground": "#f6f6f6e7",
@@ -318,7 +319,80 @@
         "walkThrough.embeddedEditorBackground": "#2a2a2a",
         "widget.shadow": "#000000"
     },
-    "$schema": "vscode://schemas/color-theme",
+    "semanticTokenColors": {
+        "excludedCode": {
+            "foreground": "#696969",
+        },
+        "namespace": {
+            "foreground": "#5ee2ff",
+            "fontStyle": "underline",
+        },
+        "struct": {
+            "foreground": "#5ee2ff"
+        },
+        "class": {
+            "foreground": "#5ee2ff",
+            "fontStyle": "",
+        },
+        "interface": {
+            "foreground": "#5ee2ff",
+            "fontStyle": "",
+        },
+        "enum": {
+            "foreground": "#5ee2ff",
+            "fontStyle": "",
+        },
+        "operatorOverloaded": {
+            "foreground": "#ff2672",
+            "fontStyle": ""
+        },
+        "operator": {
+            "foreground": "#ff2672",
+            "fontStyle": ""
+        },
+        "keyword": {
+            "foreground": "#ff2672",
+        },
+        "macro": {
+            "foreground": "#ff2672",
+            "fontStyle": "underline"
+        },
+        "preprocessorText": {
+            "foreground": "#d090ff",
+            "fontStyle": "underline"
+        },
+        "comment": {
+            "foreground": "#696969",
+            "fontStyle": "italic"
+        },
+        "property": {
+            "foreground": "#90ff5b",
+            "fontStyle": "italic"
+        },
+        "field": {
+            "foreground": "#90ff5b",
+            "fontStyle": ""
+        },
+        "event": {
+            "foreground": "#90ff5b",
+            "fontStyle": ""
+        },
+        "method": {
+            "foreground": "#90ff5b",
+            "fontStyle": "underline"
+        },
+        "parameter": {
+            "foreground": "#ffa444"
+        },
+        "enumMember": {
+            "foreground": "#d090ff",
+            "fontStyle": ""
+        },
+        "constant": {
+            "foreground": "#d090ff",
+            "fontStyle": ""
+        },
+    },
     "tokenColors": [
         {
             "scope": [
@@ -332,13 +406,13 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#5f5f5f"
+                "foreground": "#696969"
             }
         },
         {
             "scope": "comment storage.type",
             "settings": {
-                "foreground": "#5f5f5f"
+                "foreground": "#696969"
             }
         },
         {
@@ -489,6 +563,15 @@
             }
         },
         {
+            "scope": [
+                "entity.name.function.member.overload"
+            ],
+            "settings": {
+                "foreground": "#ff2672",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "entity.name.function.member.static",
             "settings": {
                 "foreground": "#fafafa"
@@ -531,7 +614,7 @@
         },
         {
             "scope": [
-                "entity.name.variable.preprocessor.symbol",
+                "entity.name.variable.preprocessor.symbol.cs",
                 "entity.name.constant.preprocessor",
             ],
             "settings": {
@@ -1001,7 +1084,7 @@
                 "punctuation.definition.string.end.html source.css"
             ],
             "settings": {
-                "foreground": "#5f5f5f"
+                "foreground": "#696969"
             }
         },
         {
@@ -1013,7 +1096,7 @@
         {
             "scope": "punctuation.definition.comment",
             "settings": {
-                "foreground": "#5f5f5f"
+                "foreground": "#696969"
             }
         },
         {
@@ -1410,8 +1493,9 @@
         },
         {
             "scope": [
-                "variable.parameter",
-                "parameters variable.function"
+                "source variable.parameter",
+                "parameters variable.function",
+                "source entity.name.variable.parameter",
             ],
             "settings": {
                 "foreground": "#ffa444"
@@ -1424,7 +1508,7 @@
                 "variable.parameter.function.language.special.cls.python"
             ],
             "settings": {
-                "foreground": "#ffa444",
+                "foreground": "#ff2672",
             }
         },
         {
@@ -1447,9 +1531,9 @@
         },
         {
             "scope": [
-                "variable",
-                "variable.other",
-                "variable.other.readwrite"
+                "source variable",
+                "source variable.other",
+                "source variable.other.readwrite"
             ],
             "settings": {
                 "foreground": "#fafafa"
