@@ -364,6 +364,10 @@
         "keyword": {
             "foreground": "#ff2672",
         },
+        "keyword.overridden": {
+            "foreground": "#ff2672",
+            "fontStyle": ""
+        },
         "macro": {
             "foreground": "#ff2672",
             "fontStyle": "underline"
@@ -377,11 +381,11 @@
             "fontStyle": "italic"
         },
         "property": {
-            "foreground": "#90ef5b",
+            "foreground": "#ffa444",
             "fontStyle": ""
         },
         "field": {
-            "foreground": "#90ef5b",
+            "foreground": "#ffa444",
             "fontStyle": "italic"
         },
         "event": {
@@ -390,19 +394,26 @@
         },
         "method": {
             "foreground": "#90ef5b",
-            "fontStyle": "underline"
+            "fontStyle": ""
         },
         "function": {
+            "foreground": "#90ef5b",
+            "fontStyle": ""
+        },
+        "magicFunction": {
             "foreground": "#90ef5b",
             "fontStyle": "underline"
         },
         "parameter": {
-            "foreground": "#ffa444"
+            "foreground": "#fafafa",
+            "fontStyle": "italic"
         },
         "selfParameter": {
+            "foreground": "#ff2672",
             "fontStyle": "italic",
         },
         "clsParameter": {
+            "foreground": "#ff2672",
             "fontStyle": "italic",
         },
         "enumMember": {
@@ -1304,8 +1315,8 @@
         {
             "scope": "storage.type",
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#5ee2ff"
+                "foreground": "#ff2672",
+                "fontStyle": ""
             }
         },
         {
@@ -1317,7 +1328,8 @@
         {
             "scope": "storage.type.function.arrow",
             "settings": {
-                "foreground": "#ff2672"
+                "foreground": "#ff2672",
+                "fontStyle": ""
             }
         },
         {
@@ -1534,7 +1546,8 @@
                 "source entity.name.variable.parameter",
             ],
             "settings": {
-                "foreground": "#ffa444"
+                "foreground": "#fafafa",
+                "fontStyle": "italic"
             }
         },
         {
