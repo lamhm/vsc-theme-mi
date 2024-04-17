@@ -10,8 +10,8 @@ The theme is designed with a focus on Python and C#. However, it also work well 
 
 ### C#
 
-![C# sample](screenshots/C_sharp.png)
+![C# sample](assets/screenshots/C_sharp.png)
 
 ### Python
 
-![Python sample](screenshots/Python.png)
+![Python sample](assets/screenshots/Python.png)
