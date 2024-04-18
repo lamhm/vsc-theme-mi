@@ -2,7 +2,7 @@
     "name": "mi-theme",
     "displayName": "MI — Monokai Intensified",
     "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
-    "version": "24.4.15",
+    "version": "24.4.16",
     "author": "Ha Minh Lam",
     "publisher": "lamhm",
     "license": "MIT",
@@ -20,6 +20,16 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "monokai",
+        "intensified",
+        "vibrant",
+        "dark",
+        "colorful",
+        "c#",
+        "python",
+        "semantic"
     ],
     "icon": "assets/icon/mi-theme-icon.png",
     "contributes": {
