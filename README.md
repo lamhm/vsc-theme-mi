@@ -6,6 +6,8 @@ This is a colour theme for Visual Studio Code that is based on the
 
 The theme is designed with a focus on Python and C#. However, it also work well for other languages.
 
+This theme fully supports semantic highlighting.
+
 ## Screenshots
 
 ### C#
