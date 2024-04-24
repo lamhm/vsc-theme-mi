@@ -182,7 +182,7 @@
         // "list.inactiveSelectionForeground": "#f6f6f6",
         "list.warningForeground": "#ffff70",
         "listFilterWidget.background": "#ae205577",
-        "listFilterWidget.noMatchesOutline": "#ffa022",
+        "listFilterWidget.noMatchesOutline": "#ffa011",
         "listFilterWidget.outline": "#f5539e77",
         "menu.background": "#2a2a2a",
         "menu.border": "#444444",
@@ -274,23 +274,23 @@
         "statusBarItem.errorBackground": "#ae2055",
         "statusBarItem.errorHoverBackground": "#d12665",
         "symbolIcon.arrayForeground": "#88f944",
-        "symbolIcon.booleanForeground": "#ffa022",
+        "symbolIcon.booleanForeground": "#ffa011",
         "symbolIcon.classForeground": "#33ccff",
-        "symbolIcon.colorForeground": "#ffa022",
+        "symbolIcon.colorForeground": "#ffa011",
         "symbolIcon.constantForeground": "#d080ff",
         "symbolIcon.constructorForeground": "#33ccff",
         "symbolIcon.enumeratorForeground": "#33ccff",
         "symbolIcon.enumeratorMemberForeground": "#d080ff",
         "symbolIcon.eventForeground": "#88f944",
-        "symbolIcon.fieldForeground": "#ffa022",
+        "symbolIcon.fieldForeground": "#ffa011",
         "symbolIcon.functionForeground": "#88f944",
         "symbolIcon.interfaceForeground": "#33ccff",
         "symbolIcon.methodForeground": "#88f944",
         "symbolIcon.moduleForeground": "#ff2672",
         "symbolIcon.namespaceForeground": "#ff2672",
-        "symbolIcon.nullForeground": "#ffa022",
+        "symbolIcon.nullForeground": "#ffa011",
         "symbolIcon.numberForeground": "#d080ff",
-        "symbolIcon.propertyForeground": "#ffa022",
+        "symbolIcon.propertyForeground": "#ffa011",
         "symbolIcon.stringForeground": "#ffff70",
         "symbolIcon.structForeground": "#33ccff",
         "symbolIcon.textForeground": "#ffff70",
@@ -398,11 +398,11 @@
             "fontStyle": "italic"
         },
         "property": {
-            "foreground": "#ffa022",
+            "foreground": "#ffa011",
             "fontStyle": ""
         },
         "field": {
-            "foreground": "#ffa022",
+            "foreground": "#ffa011",
             "fontStyle": "italic"
         },
         "event": {
@@ -558,7 +558,7 @@
         {
             "scope": "constant.other.symbol",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -742,7 +742,7 @@
         {
             "scope": "entity.other.attribute-name.id.css",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -912,7 +912,7 @@
         {
             "scope": "markup.raw",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1015,7 +1015,7 @@
                 "meta.attribute.id.html string"
             ],
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1089,7 +1089,7 @@
         {
             "scope": "meta.property-list.css variable.other",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1170,7 +1170,7 @@
                 "punctuation.section.embedded.begin"
             ],
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1208,7 +1208,7 @@
         {
             "scope": "region.orangish",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1277,7 +1277,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1310,7 +1310,7 @@
         {
             "scope": "source.git-show meta.diff.range.unified",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1607,7 +1607,7 @@
         {
             "scope": "variable.other.member",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1637,7 +1637,7 @@
         {
             "scope": "variable.other.substitution",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1658,7 +1658,7 @@
         {
             "scope": "source.jinja2 variable.other.jinja2",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1670,7 +1670,7 @@
         {
             "scope": "token.warn-token",
             "settings": {
-                "foreground": "#ffa022"
+                "foreground": "#ffa011"
             }
         },
         {
