@@ -605,6 +605,16 @@
         },
         {
             "scope": [
+                "entity.name.function.definition.special.member.destructor.cpp",
+            ],
+            "settings": {
+                "foreground": "#11bbff",
+                "fontStyle": ""
+
+            }
+        },
+        {
+            "scope": [
                 "entity.name.function",
                 "entity.name.function.templated",
                 "support.function.builtin.python",
@@ -662,6 +672,15 @@
             "settings": {
                 "foreground": "#ff2672",
                 "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.other.lt-gt.include.cpp",
+                "string.quoted.double.include.cpp"
+            ],
+            "settings": {
+                "foreground": "#ffff70",
             }
         },
         {
