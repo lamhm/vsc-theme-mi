@@ -441,6 +441,10 @@
             "foreground": "#d080ff",
             "fontStyle": ""
         },
+        "field.static:csharp": {
+            "foreground": "#d080ff",
+            "fontStyle": ""
+        },
         "*.decorator": {
             "foreground": "#11bbffaa",
             "fontStyle": "italic",
@@ -610,7 +614,6 @@
             "settings": {
                 "foreground": "#11bbff",
                 "fontStyle": ""
-
             }
         },
         {
@@ -700,7 +703,9 @@
             }
         },
         {
-            "scope": "entity.name.constant",
+            "scope": [
+                "entity.name.constant",
+            ],
             "settings": {
                 "foreground": "#d080ff"
             }
