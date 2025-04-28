@@ -1,8 +1,11 @@
+.env
 .vscode/**
 .vscode-test/**
 .gitignore
+.git*
 .conda/
 .conda-env/
 archives/
 ops/
+src/
 vsc-extension-quickstart.md
