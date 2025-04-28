@@ -6,8 +6,8 @@
     "variables": {
         "invisible": "#00000000",
 
-        "border.neutral": "#444444",
-        "border.selected": "#fafafaaa",
+        "border.neutral": "#fafafa44",
+        "border.selected": "#fafafa88",
         "border.highlight": "#ffff7088",
 
         "bg.highlightHover": "#d12665",
@@ -15,7 +15,7 @@
         "bg.lineHighlight": "#303030",
         "bg.neutral": "#2a2a2a",
         "bg.darker": "#202020",
-        "bg.input": "#1f1f1f",
+        "bg.input": "#fafafa0a",
         "bg.hover": "#fafafa22",
 
         "bgOverlay.debug": "#11bbff22",
