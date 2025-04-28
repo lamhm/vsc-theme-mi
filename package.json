@@ -38,7 +38,7 @@
             {
                 "label": "MI — Monokai Intensified",
                 "uiTheme": "vs-dark",
-                "path": "./themes/mi-theme.json"
+                "path": "./themes/mi-dark.json"
             }
         ]
     }
