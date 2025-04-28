@@ -4,10 +4,14 @@ const path = require("path")
 const themeDir = path.join(__dirname, '../themes')
 const sourceFile = path.join(__dirname, 'mi-dark.json')
 
+
 buildThemeFile(sourceFile)
-fs.watchFile(sourceFile, (curr, prev) => {
-    buildThemeFile(sourceFile)
-})
+if (process.argv.length < 3 || !process.argv.includes('--no-watch')) {
+    fs.watchFile(sourceFile, (curr, prev) => {
+        buildThemeFile(sourceFile)
+    })
+}
+
 
 
 function parseJson(jsonString) {
