@@ -10,13 +10,7 @@ conda_env_init () {
 
     rm -Rf "${conda_prefix}"
 
-    if [ "$3" == "--exp-solver" ]; then
-        conda env create --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_ENV_FILE}"  \
-                         --force --experimental-solver=libmamba
-    else
-        conda env create --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_ENV_FILE}"  \
-                         --force
-    fi
+    conda env create --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_ENV_FILE}" --yes
 }
 
 
@@ -25,13 +19,7 @@ conda_env_update () {
     local conf_dir=$2
 
     rm -Rf "${conda_prefix}"
-    if [ "$3" == "--exp-solver" ]; then
-        conda env update --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_SNAPSHOT_FILE}" \
-                         --prune --experimental-solver=libmamba
-    else
-        conda env update --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_SNAPSHOT_FILE}" \
-                         --prune
-    fi
+    conda env update --prefix "${conda_prefix}" --file "${conf_dir}/${CONDA_SNAPSHOT_FILE}" --prune
 }
 
 

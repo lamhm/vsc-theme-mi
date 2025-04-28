@@ -2,41 +2,14 @@
     "terminal.integrated.env.osx": {
         "PATH": "" // to fix issue: vscode does not respect conda environment in debugger console
     },
-    "autoDocstring.quoteStyle": "\"\"\"",
-    "autoDocstring.startOnNewLine": true,
     "editor.rulers": [
         100
     ],
     "editor.tabSize": 4,
-    "jupyter.notebookFileRoot": "${workspaceFolder}",
-    "jupyter.variableExplorerExclude": "module;function;builtin_function_or_method;type;_SpecialForm;_GenericAlias;NoneType;KedroSession;MetaHasTraits",
-    "python.languageServer": "Pylance",
-    "python.defaultInterpreterPath": "${workspaceFolder}/.conda/bin/python",
-    "python.poetryPath": "${workspaceFolder}/.conda/bin/poetry",
-    "python.testing.pytestPath": "${workspaceFolder}/.conda/bin/pytest",
     "editor.formatOnSave": false, // enable per language
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnPaste": false,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        },
-        "editor.defaultFormatter": "ms-python.black-formatter",
-    },
     "yaml.format.printWidth": 100,
     "markdown.extension.completion.root": "${workspaceFolder}",
     "explorer.copyRelativePathSeparator": "/",
-    "python.analysis.extraPaths": [
-        "./src"
-    ],
-    "python.analysis.diagnosticSeverityOverrides": {
-        "reportUndefinedVariable": "none" // this is already taken care by flake8
-    },
-    "python.testing.pytestArgs": [
-        "src"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
     "yaml.format.singleQuote": false,
     "[yaml]": {
         "editor.insertSpaces": true,
@@ -137,29 +110,5 @@
             "## Contents",
             "## Table of Contents"
         ]
-    },
-    "pylint.args": [
-        "--config=${workspaceFolder}/setup.cfg",
-        "--builtins=catalog,context,session,pipelines"
-    ],
-    "isort.path": [
-        "${workspaceFolder}/.conda/bin/isort"
-    ],
-    "black-formatter.path": [
-        "${workspaceFolder}/.conda/bin/black"
-    ],
-    "black-formatter.args": [
-        "--config=${workspaceFolder}/pyproject.toml"
-    ],
-    "flake8.path": [
-        "${workspaceFolder}/.conda/bin/flake8"
-    ],
-    "flake8.args": [
-        "--config=${workspaceFolder}/setup.cfg",
-        "--builtins=catalog,context,session,pipelines"
-    ],
-    "pylint.path": [
-        "${workspaceFolder}/.conda/bin/pylint"
-    ],
-    "jupyter.interactiveWindow.textEditor.magicCommandsAsComments": true,
+    }
 }
