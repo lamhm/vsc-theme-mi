@@ -78,6 +78,7 @@
         "code.decorator": "#11bbffaa",
         "code.function": "#90f944",
         "code.property": "#ffa011",
+        "code.string": "#ffff70",
         "code.comment": "#696969",
         "code.commentHighlight": "#c3c3c3",
         "code.meta": "#939393",
@@ -102,7 +103,6 @@
 
     "colors": {
         "editorUnnecessaryCode.opacity": "#000000c0",
-
         "activityBar.activeBorder": "--bg.highlight",
         "activityBar.background": "--bg.neutral",
         "activityBar.border": "--bg.editor",
@@ -144,8 +144,8 @@
         "diffEditor.insertedLineBackground": "--bgOverlay.info",
         "diffEditor.removedTextBackground": "--bgOverlay.deleted",
         "diffEditor.removedLineBackground": "--bgOverlay.deleted",
-        "checkbox.background":"--bg.input",
-        "checkbox.border":"--border.neutral",
+        "checkbox.background": "--bg.input",
+        "checkbox.border": "--border.neutral",
         "checkbox.selectBackground": "--bg.input",
         "checkbox.selectBorder": "--border.selected",
         "dropdown.background": "--bg.input",
@@ -297,7 +297,6 @@
         "merge.commonHeaderBackground": "--bgOverlay.inactive",
         "merge.currentHeaderBackground": "--bgOverlay.debug",
         "merge.incomingHeaderBackground": "--bgOverlay.info",
-
         "minimap.errorHighlight": "--strongOverlay.error",
         "minimap.findMatchHighlight": "--overlay.highlight",
         "minimap.selectionHighlight": "--overlay.selected",
@@ -305,7 +304,6 @@
         "minimapGutter.addedBackground": "--fg.info",
         "minimapGutter.deletedBackground": "--fg.deleted",
         "minimapGutter.modifiedBackground": "--fg.debug",
-
         "notificationCenter.border": "--bg.neutral",
         "notificationCenterHeader.background": "--bg.neutral",
         "notificationCenterHeader.foreground": "--fg.neutral",
@@ -395,9 +393,9 @@
         "symbolIcon.nullForeground": "--code.property",
         "symbolIcon.numberForeground": "--code.constant",
         "symbolIcon.propertyForeground": "--code.property",
-        "symbolIcon.stringForeground": "--fg.warning",
+        "symbolIcon.stringForeground": "--code.string",
         "symbolIcon.structForeground": "--code.class",
-        "symbolIcon.textForeground": "--fg.warning",
+        "symbolIcon.textForeground": "--code.string",
         "symbolIcon.variableForeground": "--fg.active",
         "symbolIcon.om_RegionForeground": "--code.keyword",
         "symbolIcon.om_TagForeground": "--code.keyword",
@@ -788,7 +786,7 @@
                 "string.quoted.double.include.cpp"
             ],
             "settings": {
-                "foreground": "--fg.warning",
+                "foreground": "--code.string",
             }
         },
         {
@@ -906,7 +904,7 @@
         {
             "scope": "entity.name.operator.custom-literal.string",
             "settings": {
-                "foreground": "--fg.warning"
+                "foreground": "--code.string"
             }
         },
         {
@@ -1206,7 +1204,7 @@
                 "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string"
             ],
             "settings": {
-                "foreground": "--fg.warning"
+                "foreground": "--code.string"
             }
         },
         {
@@ -1343,7 +1341,7 @@
         {
             "scope": "region.yellowish",
             "settings": {
-                "foreground": "--fg.warning"
+                "foreground": "--code.string"
             }
         },
         {
@@ -1539,7 +1537,7 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "--fg.warning"
+                "foreground": "--code.string"
             }
         },
         {
