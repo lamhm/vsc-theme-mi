@@ -21,6 +21,7 @@
         "breadcrumbPicker.background": "#2a2a2a",
         "button.background": "#ae2055",
         "button.foreground": "#fafafa",
+        "button.hoverBackground": "#d12665",
         "debugExceptionWidget.background": "#2a2a2a",
         "debugExceptionWidget.border": "#ff2672",
         "debugIcon.breakpointCurrentStackframeForeground": "#90f944",

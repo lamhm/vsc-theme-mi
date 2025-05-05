@@ -119,6 +119,7 @@
         "breadcrumbPicker.background": "--bg.neutral",
         "button.background": "--bg.highlight",
         "button.foreground": "--fg.active",
+        "button.hoverBackground": "--bg.highlightHover",
         "debugExceptionWidget.background": "--bg.neutral",
         "debugExceptionWidget.border": "--fg.error",
         "debugIcon.breakpointCurrentStackframeForeground": "--fg.info",
