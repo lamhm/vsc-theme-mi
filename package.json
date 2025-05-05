@@ -36,9 +36,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "MI — Monokai Intensified",
+                "label": "MI Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/mi-dark.json"
+            },
+            {
+                "label": "MI Light",
+                "uiTheme": "vs",
+                "path": "./themes/mi-light.json"
             }
         ]
     }

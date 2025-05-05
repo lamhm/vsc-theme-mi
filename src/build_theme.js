@@ -2,16 +2,26 @@ const fs = require('fs')
 const path = require("path")
 
 const themeDir = path.join(__dirname, '../themes')
-const sourceFile = path.join(__dirname, 'mi-dark.json')
+const themeFiles = [
+    'mi-dark.json',
+    'mi-light.json'
+];
 
 
-buildThemeFile(sourceFile)
-if (process.argv.length < 3 || !process.argv.includes('--no-watch')) {
-    fs.watchFile(sourceFile, (curr, prev) => {
-        buildThemeFile(sourceFile)
-    })
+buildTheme(themeFiles);
+
+
+function buildTheme(themeFiles) {
+    themeFiles.forEach(fileName => {
+        const sourcePath = path.join(__dirname, fileName);
+        buildThemeFile(sourcePath)
+        if (process.argv.length < 3 || !process.argv.includes('--no-watch')) {
+            fs.watch(sourcePath, (_eventType, _filename) => {
+                buildThemeFile(sourcePath)
+            });
+        }
+    });
 }
-
 
 
 function parseJson(jsonString) {
