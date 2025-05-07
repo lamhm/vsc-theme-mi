@@ -6,8 +6,8 @@
     "colors": {
         "editorUnnecessaryCode.opacity": "#000000c0",
         "activityBar.activeBorder": "#c580ff",
-        "activityBar.background": "#efefef",
-        "activityBar.border": "#ffffff",
+        "activityBar.background": "#e7e7e7",
+        "activityBar.border": "#00000000",
         "activityBar.dropBorder": "#ffffff",
         "activityBar.foreground": "#232323",
         "activityBar.inactiveForeground": "#aaaaaa",

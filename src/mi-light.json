@@ -13,6 +13,7 @@
         "bg.highlightHover": "#d5a0ff",
         "bg.highlight": "#c580ff",
         "bg.lineHighlight": "#0101010a",
+        "bg.activityBar": "#e7e7e7",
         "bg.neutral": "#efefef",
         "bg.editor": "#ffffff",
         "bg.input": "#0101010a",
@@ -105,8 +106,8 @@
         "editorUnnecessaryCode.opacity": "#000000c0",
 
         "activityBar.activeBorder": "--bg.highlight",
-        "activityBar.background": "--bg.neutral",
-        "activityBar.border": "--bg.editor",
+        "activityBar.background": "--bg.activityBar",
+        "activityBar.border": "--invisible",
         "activityBar.dropBorder": "--bg.editor",
         "activityBar.foreground": "--fg.neutral",
         "activityBar.inactiveForeground": "--fg.notes",
