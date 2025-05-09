@@ -43,10 +43,12 @@
         "debugToolBar.border": "#fafafa44",
         "descriptionForeground": "#fafafa",
         "diffEditor.border": "#fafafa44",
-        "diffEditor.insertedTextBackground": "#90f94433",
+        "diffEditor.insertedTextBackground": "#90f9443f",
         "diffEditor.insertedLineBackground": "#00000000",
-        "diffEditor.removedTextBackground": "#d080ff33",
+        "diffEditor.removedTextBackground": "#d080ff3f",
         "diffEditor.removedLineBackground": "#00000000",
+        "diffEditorGutter.insertedLineBackground": "#90f9443f",
+        "diffEditorGutter.removedLineBackground": "#d080ff3f",
         "checkbox.background": "#fafafa0a",
         "checkbox.border": "#fafafa44",
         "checkbox.selectBackground": "#fafafa0a",
@@ -59,7 +61,7 @@
         "editor.findMatchBorder": "#ffff7088",
         "editor.findMatchHighlightBackground": "#fafafa55",
         "editor.findRangeHighlightBackground": "#ae205522",
-        "editor.focusedStackFrameHighlightBackground": "#90f94433",
+        "editor.focusedStackFrameHighlightBackground": "#90f9443f",
         "editor.foreground": "#fafafa",
         "editor.hoverHighlightBackground": "#ae205540",
         "editor.lineHighlightBackground": "#303030",
@@ -69,7 +71,7 @@
         "editor.snippetFinalTabstopHighlightBackground": "#fafafa",
         "editor.snippetFinalTabstopHighlightBorder": "#ae205577",
         "editor.snippetTabstopHighlightBackground": "#fafafa22",
-        "editor.stackFrameHighlightBackground": "#90f94433",
+        "editor.stackFrameHighlightBackground": "#90f9443f",
         "editor.wordHighlightBackground": "#ae205544",
         "editor.wordHighlightStrongBackground": "#ae205544",
         "editorBracketMatch.border": "#fafafa66",
@@ -158,21 +160,21 @@
         "gitlens.gutterBackgroundColor": "#303030",
         "gitlens.gutterForegroundColor": "#666666",
         "gitlens.gutterUncommittedForegroundColor": "#666666",
-        "gitlens.lineHighlightBackgroundColor": "#90f94433",
-        "gitlens.lineHighlightOverviewRulerColor": "#90f94433",
+        "gitlens.lineHighlightBackgroundColor": "#90f9443f",
+        "gitlens.lineHighlightOverviewRulerColor": "#90f9443f",
         "gitlens.trailingLineForegroundColor": "#666666",
         "icon.foreground": "#cccccc",
         "input.background": "#fafafa0a",
         "input.border": "#fafafa44",
         "input.placeholderForeground": "#666666",
         "inputOption.activeBorder": "#ae2055",
-        "inputValidation.errorBackground": "#ff267233",
+        "inputValidation.errorBackground": "#ff26723f",
         "inputValidation.errorForeground": "#fafafa",
         "inputValidation.errorBorder": "#ae2055",
-        "inputValidation.infoBackground": "#90f94433",
+        "inputValidation.infoBackground": "#90f9443f",
         "inputValidation.infoForeground": "#fafafa",
         "inputValidation.infoBorder": "#ae2055",
-        "inputValidation.warningBackground": "#ffff7033",
+        "inputValidation.warningBackground": "#ffff703f",
         "inputValidation.warningForeground": "#fafafa",
         "inputValidation.warningBorder": "#ae2055",
         "list.activeSelectionBackground": "#ae205577",
@@ -198,8 +200,8 @@
         "menubar.selectionBackground": "#ae2055",
         "menubar.selectionForeground": "#fafafa",
         "merge.commonHeaderBackground": "#cccccc22",
-        "merge.currentHeaderBackground": "#33bbff33",
-        "merge.incomingHeaderBackground": "#90f94433",
+        "merge.currentHeaderBackground": "#33bbff3f",
+        "merge.incomingHeaderBackground": "#90f9443f",
         "minimap.errorHighlight": "#ff267288",
         "minimap.findMatchHighlight": "#fafafadd",
         "minimap.selectionHighlight": "#fafafa44",
@@ -350,6 +352,10 @@
         "widget.shadow": "#fafafa22"
     },
     "semanticTokenColors": {
+        "string": {
+            "foreground": "#ffff70",
+            "fontStyle": "italic"
+        },
         "excludedCode": {
             "foreground": "#777777"
         },
@@ -448,8 +454,8 @@
             "fontStyle": ""
         },
         "field.static:csharp": {
-            "foreground": "#d080ff",
-            "fontStyle": ""
+            "foreground": "#ffa011",
+            "fontStyle": "underline"
         },
         "*.decorator": {
             "foreground": "#33bbffaa",

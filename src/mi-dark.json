@@ -19,11 +19,11 @@
         "bg.input": "#fafafa0a",
         "bg.hover": "#fafafa22",
 
-        "bgOverlay.debug": "#33bbff33",
-        "bgOverlay.info": "#90f94433",
-        "bgOverlay.warning": "#ffff7033",
-        "bgOverlay.error": "#ff267233",
-        "bgOverlay.deleted": "#d080ff33",
+        "bgOverlay.debug": "#33bbff3f",
+        "bgOverlay.info": "#90f9443f",
+        "bgOverlay.warning": "#ffff703f",
+        "bgOverlay.error": "#ff26723f",
+        "bgOverlay.deleted": "#d080ff3f",
         "bgOverlay.match": "#fafafa55",
         "bgOverlay.selected": "#fafafa22",
         "bgOverlay.hover": "#fafafa44",
@@ -147,6 +147,8 @@
         "diffEditor.insertedLineBackground": "--invisible",
         "diffEditor.removedTextBackground": "--bgOverlay.deleted",
         "diffEditor.removedLineBackground": "--invisible",
+        "diffEditorGutter.insertedLineBackground": "--bgOverlay.info",
+        "diffEditorGutter.removedLineBackground": "--bgOverlay.deleted",
         "checkbox.background": "--bg.input",
         "checkbox.border": "--border.neutral",
         "checkbox.selectBackground": "--bg.input",
@@ -454,6 +456,10 @@
         "widget.shadow": "--shadow.neutral"
     },
     "semanticTokenColors": {
+        "string": {
+            "foreground": "--code.string",
+            "fontStyle": "italic"
+        },
         "excludedCode": {
             "foreground": "--code.excluded",
         },
@@ -552,8 +558,8 @@
             "fontStyle": ""
         },
         "field.static:csharp": {
-            "foreground": "--code.constant",
-            "fontStyle": ""
+            "foreground": "--code.property",
+            "fontStyle": "underline"
         },
         "*.decorator": {
             "foreground": "--code.decorator",
