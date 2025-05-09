@@ -2,25 +2,50 @@ const fs = require('fs')
 const path = require("path")
 
 const themeDir = path.join(__dirname, '../themes')
+const commonFile = 'common.json'
 const themeFiles = [
     'mi-dark.json',
     'mi-light.json'
 ];
 
 
-buildTheme(themeFiles);
+buildTheme();
+if (process.argv.length < 3 || !process.argv.includes('--no-watch')) {
+    autoRebuild();
+}
 
 
-function buildTheme(themeFiles) {
+function autoRebuild() {
+    let fileChanged = false
+    const watchedFiles = [...themeFiles, commonFile]
+
+    watchedFiles.forEach(
+        fileName => {
+            const filePath = path.join(__dirname, fileName);
+            fs.watch(filePath, (_eventType, _fileName) => {
+                fileChanged = true
+            });
+        }
+    );
+
+    setInterval(
+        () => {
+            if (fileChanged) {
+                fileChanged = false
+                buildTheme();
+            }
+        },
+        500
+    );
+}
+
+
+function buildTheme() {
     themeFiles.forEach(fileName => {
         const sourcePath = path.join(__dirname, fileName);
         buildThemeFile(sourcePath)
-        if (process.argv.length < 3 || !process.argv.includes('--no-watch')) {
-            fs.watch(sourcePath, (_eventType, _filename) => {
-                buildThemeFile(sourcePath)
-            });
-        }
     });
+
 }
 
 
@@ -40,12 +65,12 @@ function buildThemeFile(sourceFile) {
 
     console.log(`Rebuilding theme from '${sourceFile}'...`);
     try {
-        const text = fs.readFileSync(sourceFile, 'utf-8')
-        const parsedJson = parseJson(text)
-        const { variables } = parsedJson
+        const sourceText = fs.readFileSync(sourceFile, 'utf-8')
+        const sourceJson = parseJson(sourceText)
+        const { variables } = sourceJson
 
-        delete parsedJson.variables
-        let replaced = JSON.stringify(parsedJson, null, 4)
+        delete sourceJson.variables
+        let replaced = JSON.stringify(sourceJson, null, 4)
 
         Object.entries(variables).forEach(([key, value]) => {
             replaced = replaced.replaceAll(`"--${key}"`, `"${value}"`)
