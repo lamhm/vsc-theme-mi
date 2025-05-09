@@ -1,13 +1,15 @@
-# MI &mdash; Monokai Intensified
+# MI Colour Theme
 
-This is a colour theme for Visual Studio Code that is based on the
-[Monokai Accent theme](https://github.com/tw-studio/monokai-accent) and the
-[Monokai Vibrant theme](https://github.com/dylantmarsh/monokai-vibrant).
+**MI** is specifically designed to optimize semantic highlighting for C#, C++, and Python.
+While it offers effective syntax highlighting for other languages,
+comprehensive testing has been concentrated on the aforementioned languages.
 
-The theme is designed with a focus on C#, C++, and Python.
-It also works well for other languages (however, intensive testing has not been conducted).
+The dark colour scheme of **MI** draws inspirartion from the
+[Monokai Accent](https://github.com/tw-studio/monokai-accent) and the
+[Monokai Vibrant](https://github.com/dylantmarsh/monokai-vibrant) themes.
 
-This theme fully supports semantic highlighting.
+The light colour scheme of this theme was developed independently.
+
 
 ## Supported Extensions
 
@@ -18,14 +20,20 @@ This theme also contains colour settings for the following extensions:
 
 ## Screenshots
 
-### C#
+### MI Dark
+
+#### C#
 
 ![C# sample](assets/screenshots/C_sharp.png)
 
-### C++
+#### C++
 
 ![C++ sample](assets/screenshots/C_plus.png)
 
-### Python
+#### Python
 
 ![Python sample](assets/screenshots/Python.png)
+
+### MI Light
+
+*[To be added]*

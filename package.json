@@ -1,8 +1,8 @@
 {
     "name": "mi-theme",
-    "displayName": "MI — Monokai Intensified",
-    "description": "A fusion of the Monokai Accent theme (https://github.com/tw-studio/monokai-accent) and the Monokai Vibrant theme (https://github.com/dylantmarsh/monokai-vibrant).",
-    "version": "25.5.7",
+    "displayName": "MI Colour Theme",
+    "description": "Optimized semantic highlighting for C#, C++, and Python",
+    "version": "25.5.9",
     "author": "Ha Minh Lam",
     "publisher": "lamhm",
     "license": "MIT",
@@ -23,9 +23,9 @@
     ],
     "keywords": [
         "monokai",
-        "intensified",
         "vibrant",
         "dark",
+        "light",
         "colorful",
         "c#",
         "python",
