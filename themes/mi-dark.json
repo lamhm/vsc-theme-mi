@@ -56,7 +56,7 @@
         "dropdown.foreground": "#fafafa",
         "editor.background": "#1c1c1c",
         "editor.findMatchBackground": "#fafafa55",
-        "editor.findMatchBorder": "#ffff7088",
+        "editor.findMatchBorder": "#eeee6088",
         "editor.findMatchHighlightBackground": "#fafafa55",
         "editor.findRangeHighlightBackground": "#ae205522",
         "editor.focusedStackFrameHighlightBackground": "#90f9003f",
@@ -96,14 +96,14 @@
         "editorIndentGuide.activeBackground1": "#fafafa55",
         "editorIndentGuide.background1": "#fafafa22",
         "editorInfo.foreground": "#90f900",
-        "editorLightBulb.foreground": "#ffff70",
+        "editorLightBulb.foreground": "#eeee60",
         "editorLightBulbAutoFix.foreground": "#90f900",
         "editorLineNumber.foreground": "#666666",
         "editorLink.activeForeground": "#f5539e",
         "editorMarkerNavigation.background": "#1c1c1c",
         "editorMarkerNavigationError.background": "#ff3682",
         "editorMarkerNavigationInfo.background": "#90f900",
-        "editorMarkerNavigationWarning.background": "#ffff70",
+        "editorMarkerNavigationWarning.background": "#eeee60",
         "editorOverviewRuler.addedForeground": "#90f900",
         "editorOverviewRuler.border": "#fafafa44",
         "editorOverviewRuler.bracketMatchForeground": "#666666",
@@ -112,7 +112,7 @@
         "editorOverviewRuler.findMatchForeground": "#ffa011aa",
         "editorOverviewRuler.infoForeground": "#90f900",
         "editorOverviewRuler.modifiedForeground": "#33bbff",
-        "editorOverviewRuler.warningForeground": "#ffff70",
+        "editorOverviewRuler.warningForeground": "#eeee60",
         "editorOverviewRuler.wordHighlightForeground": "#ffa01166",
         "editorOverviewRuler.wordHighlightStrongForeground": "#ffa01166",
         "editorPane.background": "#282828",
@@ -122,7 +122,7 @@
         "editorSuggestWidget.foreground": "#fafafa",
         "editorSuggestWidget.highlightForeground": "#fafafa",
         "editorSuggestWidget.selectedBackground": "#ae2055",
-        "editorWarning.foreground": "#ffff70",
+        "editorWarning.foreground": "#eeee60",
         "editorWhitespace.foreground": "#fafafa22",
         "editorWidget.background": "#1c1c1c",
         "editorWidget.border": "#fafafa44",
@@ -139,7 +139,7 @@
         "errorLens.infoForeground": "#90f90040",
         "errorLens.warningBackground": "#00000000",
         "errorLens.warningBackgroundLight": "#00000000",
-        "errorLens.warningForeground": "#ffff7040",
+        "errorLens.warningForeground": "#eeee6040",
         "extensionButton.prominentBackground": "#ae2055",
         "extensionButton.prominentForeground": "#fafafa",
         "extensionButton.prominentHoverBackground": "#d12665",
@@ -147,7 +147,7 @@
         "foreground": "#cccccc",
         "gitDecoration.untrackedResourceForeground": "#90f900",
         "gitDecoration.addedResourceForeground": "#90f900",
-        "gitDecoration.conflictingResourceForeground": "#ffff70",
+        "gitDecoration.conflictingResourceForeground": "#eeee60",
         "gitDecoration.deletedResourceForeground": "#e080ff",
         "gitDecoration.stageDeletedResourceForeground": "#e080ff",
         "gitDecoration.renamedResourceForeground": "#33bbff",
@@ -172,7 +172,7 @@
         "inputValidation.infoBackground": "#90f9003f",
         "inputValidation.infoForeground": "#fafafa",
         "inputValidation.infoBorder": "#ae2055",
-        "inputValidation.warningBackground": "#ffff703f",
+        "inputValidation.warningBackground": "#eeee603f",
         "inputValidation.warningForeground": "#fafafa",
         "inputValidation.warningBorder": "#ae2055",
         "list.activeSelectionBackground": "#ae205577",
@@ -186,7 +186,7 @@
         "list.hoverBackground": "#ae205540",
         "list.inactiveSelectionBackground": "#cccccc22",
         "listFilterWidget.background": "#ae205577",
-        "list.warningForeground": "#ffff70",
+        "list.warningForeground": "#eeee60",
         "listFilterWidget.noMatchesOutline": "#ffa011",
         "listFilterWidget.outline": "#ae205577",
         "menu.background": "#282828",
@@ -203,7 +203,7 @@
         "minimap.errorHighlight": "#ff368288",
         "minimap.findMatchHighlight": "#fafafadd",
         "minimap.selectionHighlight": "#fafafa44",
-        "minimap.warningHighlight": "#ffff7040",
+        "minimap.warningHighlight": "#eeee6040",
         "minimapGutter.addedBackground": "#90f900",
         "minimapGutter.deletedBackground": "#e080ff",
         "minimapGutter.modifiedBackground": "#33bbff",
@@ -240,7 +240,7 @@
         "pickerGroup.foreground": "#f5539e",
         "problemsErrorIcon.foreground": "#ff3682",
         "problemsInfoIcon.foreground": "#90f900",
-        "problemsWarningIcon.foreground": "#ffff70",
+        "problemsWarningIcon.foreground": "#eeee60",
         "progressBar.background": "#ae2055",
         "quickInput.background": "#282828",
         "quickInput.foreground": "#fafafa",
@@ -296,9 +296,9 @@
         "symbolIcon.nullForeground": "#ffa011",
         "symbolIcon.numberForeground": "#e080ff",
         "symbolIcon.propertyForeground": "#ffa011",
-        "symbolIcon.stringForeground": "#ffff70",
+        "symbolIcon.stringForeground": "#eeee60",
         "symbolIcon.structForeground": "#33bbff",
-        "symbolIcon.textForeground": "#ffff70",
+        "symbolIcon.textForeground": "#eeee60",
         "symbolIcon.variableForeground": "#fafafa",
         "symbolIcon.om_RegionForeground": "#ff3682",
         "symbolIcon.om_TagForeground": "#ff3682",
@@ -314,7 +314,7 @@
         "terminal.ansiBlack": "#1c1c1c",
         "terminal.ansiRed": "#ff3682",
         "terminal.ansiGreen": "#90f900",
-        "terminal.ansiYellow": "#ffff70",
+        "terminal.ansiYellow": "#eeee60",
         "terminal.ansiBlue": "#ffa011",
         "terminal.ansiMagenta": "#e080ff",
         "terminal.ansiCyan": "#33bbff",
@@ -351,7 +351,7 @@
     },
     "semanticTokenColors": {
         "string": {
-            "foreground": "#ffff70",
+            "foreground": "#eeee60",
             "fontStyle": "italic"
         },
         "excludedCode": {
@@ -612,13 +612,13 @@
         {
             "scope": "constant.numeric.line-number.match.find-in-files",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
             "scope": "entity.name.section",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -697,7 +697,7 @@
                 "string.quoted.double.include.cpp"
             ],
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -815,7 +815,7 @@
         {
             "scope": "entity.name.operator.custom-literal.string",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -944,7 +944,7 @@
         {
             "scope": "markup.heading",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -989,7 +989,7 @@
                 "markup.changed punctuation.definition.changed"
             ],
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1115,7 +1115,7 @@
                 "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string"
             ],
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1133,7 +1133,7 @@
         {
             "scope": "meta.diff.git-diff.header",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1252,7 +1252,7 @@
         {
             "scope": "region.yellowish",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1448,7 +1448,7 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#ffff70"
+                "foreground": "#eeee60"
             }
         },
         {
