@@ -416,9 +416,17 @@
             "foreground": "--code.property",
             "fontStyle": ""
         },
+        "property.static": {
+            "foreground": "--code.property",
+            "fontStyle": "underline"
+        },
         "field": {
             "foreground": "--code.property",
             "fontStyle": "italic"
+        },
+        "field.static": {
+            "foreground": "--code.property",
+            "fontStyle": "italic underline"
         },
         "event": {
             "foreground": "--code.function",
@@ -455,10 +463,6 @@
         "constant": {
             "foreground": "--code.constant",
             "fontStyle": ""
-        },
-        "field.static:csharp": {
-            "foreground": "--code.property",
-            "fontStyle": "underline"
         },
         "*.decorator": {
             "foreground": "--code.decorator",

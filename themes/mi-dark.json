@@ -411,9 +411,17 @@
             "foreground": "#ffa011",
             "fontStyle": ""
         },
+        "property.static": {
+            "foreground": "#ffa011",
+            "fontStyle": "underline"
+        },
         "field": {
             "foreground": "#ffa011",
             "fontStyle": "italic"
+        },
+        "field.static": {
+            "foreground": "#ffa011",
+            "fontStyle": "italic underline"
         },
         "event": {
             "foreground": "#90f944",
@@ -450,10 +458,6 @@
         "constant": {
             "foreground": "#d080ff",
             "fontStyle": ""
-        },
-        "field.static:csharp": {
-            "foreground": "#ffa011",
-            "fontStyle": "underline"
         },
         "*.decorator": {
             "foreground": "#33bbffaa",
