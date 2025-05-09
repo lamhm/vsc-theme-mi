@@ -1,8 +1,6 @@
 {
-    "name": "MI",
-    "type": "light",
-    "semanticHighlighting": true,
     "$schema": "vscode://schemas/color-theme",
+    "semanticHighlighting": true,
     "colors": {
         "editorUnnecessaryCode.opacity": "#000000c0",
         "activityBar.activeBorder": "#c580ff",
@@ -1721,5 +1719,7 @@
                 "foreground": "#b000b0"
             }
         }
-    ]
+    ],
+    "name": "MI",
+    "type": "light"
 }

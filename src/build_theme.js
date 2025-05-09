@@ -2,7 +2,10 @@ const fs = require('fs')
 const path = require("path")
 
 const themeDir = path.join(__dirname, '../themes')
+
 const commonFile = 'common.json'
+const commonFilePath = path.join(__dirname, commonFile)
+
 const themeFiles = [
     'mi-dark.json',
     'mi-light.json'
@@ -49,7 +52,9 @@ function buildTheme() {
 }
 
 
-function parseJson(jsonString) {
+function parseJsonFile(filePath) {
+    const jsonString = fs.readFileSync(filePath, 'utf-8')
+
     // Remove comments
     var cleanedJsonString = jsonString.replace(/\/\*[\s\S]*?\*\/|([^:]|^)\/\/.*$/gm, '$1');
 
@@ -65,12 +70,13 @@ function buildThemeFile(sourceFile) {
 
     console.log(`Rebuilding theme from '${sourceFile}'...`);
     try {
-        const sourceText = fs.readFileSync(sourceFile, 'utf-8')
-        const sourceJson = parseJson(sourceText)
-        const { variables } = sourceJson
+        const commonJson = parseJsonFile(commonFilePath)
+        const sourceJson = parseJsonFile(sourceFile)
+        const mergedJson = mergeJsonObjects(commonJson, sourceJson)
+        const { variables } = mergedJson
 
-        delete sourceJson.variables
-        let replaced = JSON.stringify(sourceJson, null, 4)
+        delete mergedJson.variables
+        let replaced = JSON.stringify(mergedJson, null, 4)
 
         Object.entries(variables).forEach(([key, value]) => {
             replaced = replaced.replaceAll(`"--${key}"`, `"${value}"`)
@@ -79,4 +85,20 @@ function buildThemeFile(sourceFile) {
     } catch (e) {
         console.error(e)
     }
+}
+
+
+function mergeJsonObjects(overridden, precedence) {
+    const merged = { ...overridden };
+
+    Object.keys(precedence).forEach(key => {
+        if (precedence[key] && typeof precedence[key] === 'object' && !Array.isArray(precedence[key])) {
+            // If both precedence and overriden have the same key and the value is an object, merge recursively
+            merged[key] = mergeJsonObjects(overridden[key] || {}, precedence[key]);
+        } else {
+            merged[key] = precedence[key];
+        }
+    });
+
+    return merged;
 }
