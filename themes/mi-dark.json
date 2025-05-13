@@ -354,6 +354,10 @@
             "foreground": "#eeee60",
             "fontStyle": "italic"
         },
+        "number": {
+            "foreground": "#e080ff",
+            "fontStyle": "bold"
+        },
         "excludedCode": {
             "foreground": "#777777"
         },
@@ -411,17 +415,17 @@
             "foreground": "#ffa011",
             "fontStyle": ""
         },
-        "property.static": {
-            "foreground": "#ffa011",
-            "fontStyle": "underline"
-        },
         "field": {
             "foreground": "#ffa011",
             "fontStyle": "italic"
         },
+        "property.static": {
+            "foreground": "#ffa011",
+            "fontStyle": "bold"
+        },
         "field.static": {
             "foreground": "#ffa011",
-            "fontStyle": "italic underline"
+            "fontStyle": "bold italic"
         },
         "event": {
             "foreground": "#90f900",
@@ -588,7 +592,8 @@
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#e080ff"
+                "foreground": "#e080ff",
+                "fontStyle": "bold"
             }
         },
         {
@@ -654,7 +659,7 @@
         {
             "scope": "entity.name.function.member.static",
             "settings": {
-                "foreground": "#f0f0f0"
+                "foreground": "#ffa011"
             }
         },
         {
@@ -1422,7 +1427,6 @@
                 "storage.modifier.const.rust",
                 "storage.modifier.dyn.rust",
                 "storage.modifier.mut.rust",
-                "storage.modifier.static.rust",
                 "storage.type.rust",
                 "storage.type.core.rust",
                 "storage.class.std.rust"
@@ -1433,11 +1437,14 @@
         },
         {
             "scope": [
-                "storage.type.rust",
-                "storage.modifier.const.rust",
-                "storage.modifier.dyn.rust",
-                "storage.modifier.mut.rust",
-                "storage.modifier.static.rust",
+                "storage.modifier.static.rust"
+            ],
+            "settings": {
+                "foreground": "#ffa011"
+            }
+        },
+        {
+            "scope": [
                 "keyword.other.rust",
                 "keyword.other.where.rust"
             ],
@@ -1658,12 +1665,19 @@
             "scope": [
                 "field",
                 "variable.other.property",
-                "variable.other.property.static",
                 "variable.other.event",
                 "meta.member.access"
             ],
             "settings": {
                 "foreground": "#90f900"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.property.static"
+            ],
+            "settings": {
+                "foreground": "#ffa011"
             }
         },
         {

@@ -359,6 +359,10 @@
             "foreground": "--code.string",
             "fontStyle": "italic"
         },
+        "number": {
+            "foreground": "--code.constant",
+            "fontStyle": "bold"
+        },
         "excludedCode": {
             "foreground": "--code.excluded",
         },
@@ -416,17 +420,17 @@
             "foreground": "--code.property",
             "fontStyle": ""
         },
-        "property.static": {
-            "foreground": "--code.property",
-            "fontStyle": "underline"
-        },
         "field": {
             "foreground": "--code.property",
             "fontStyle": "italic"
         },
+        "property.static": {
+            "foreground": "--code.static",
+            "fontStyle": "bold"
+        },
         "field.static": {
-            "foreground": "--code.property",
-            "fontStyle": "italic underline"
+            "foreground": "--code.static",
+            "fontStyle": "bold italic"
         },
         "event": {
             "foreground": "--code.function",
@@ -593,7 +597,8 @@
         {
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "--code.constant"
+                "foreground": "--code.constant",
+                "fontStyle": "bold"
             }
         },
         {
@@ -659,7 +664,7 @@
         {
             "scope": "entity.name.function.member.static",
             "settings": {
-                "foreground": "--code.default"
+                "foreground": "--code.static"
             }
         },
         {
@@ -1427,7 +1432,6 @@
                 "storage.modifier.const.rust",
                 "storage.modifier.dyn.rust",
                 "storage.modifier.mut.rust",
-                "storage.modifier.static.rust",
                 "storage.type.rust",
                 "storage.type.core.rust",
                 "storage.class.std.rust"
@@ -1438,11 +1442,14 @@
         },
         {
             "scope": [
-                "storage.type.rust",
-                "storage.modifier.const.rust",
-                "storage.modifier.dyn.rust",
-                "storage.modifier.mut.rust",
-                "storage.modifier.static.rust",
+                "storage.modifier.static.rust"
+            ],
+            "settings": {
+                "foreground": "--code.static"
+            }
+        },
+        {
+            "scope": [
                 "keyword.other.rust",
                 "keyword.other.where.rust"
             ],
@@ -1663,12 +1670,19 @@
             "scope": [
                 "field",
                 "variable.other.property",
-                "variable.other.property.static",
                 "variable.other.event",
                 "meta.member.access"
             ],
             "settings": {
                 "foreground": "--code.function"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.property.static"
+            ],
+            "settings": {
+                "foreground": "--code.static"
             }
         },
         {

@@ -9,6 +9,7 @@
         "border.neutral": "#fafafa44",
         "border.selected": "#fafafa88",
         "border.highlight": "#eeee6088",
+
         "bg.highlightHover": "#d12665",
         "bg.highlight": "#ae2055",
         "bg.lineHighlight": "#303030",
@@ -77,6 +78,7 @@
         "code.decorator": "#33bbffaa",
         "code.function": "#90f900",
         "code.property": "#ffa011",
+        "code.static": "#ffa011",
         "code.string": "#eeee60",
         "code.comment": "#696969",
         "code.commentHighlight": "#c3c3c3",
