@@ -364,6 +364,9 @@
             "foreground": "--code.class",
             "fontStyle": "",
         },
+        "class.typeHint": {
+            "foreground": "--code.classHint"
+        },
         "enum": {
             "foreground": "--code.class",
             "fontStyle": "",
@@ -478,6 +481,16 @@
         "constant": {
             "foreground": "--code.constant",
             "fontStyle": ""
+        },
+        "builtinConstant": {
+            "foreground": "--code.constant",
+            "fontStyle": ""
+        },
+        "constant.typeHint": {
+            "foreground": "--code.constantHint",
+        },
+        "builtinConstant.typeHint": {
+            "foreground": "--code.constantHint"
         },
         "regexp": {
             "foreground": "--code.constant",
@@ -625,6 +638,14 @@
                 "entity.name.function.templated",
                 "support.function.builtin.python",
                 "support.function",
+            ],
+            "settings": {
+                "foreground": "--code.function"
+            }
+        },
+        {
+            "scope": [
+                "support.function.magic.python"
             ],
             "settings": {
                 "foreground": "--code.function",

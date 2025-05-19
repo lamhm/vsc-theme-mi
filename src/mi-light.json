@@ -73,9 +73,11 @@
 
         "code.default": "#101010",
         "code.class": "#1100ff",
+        "code.classHint": "#1100ffaa",
         "code.keyword": "#d00000",
         "code.excluded": "#666666",
         "code.constant": "#b000c0",
+        "code.constantHint": "#b000c0aa",
         "code.decorator": "#1100ffaa",
         "code.function": "#008500",
         "code.property": "#a06000",
