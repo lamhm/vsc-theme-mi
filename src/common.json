@@ -354,7 +354,49 @@
         "walkThrough.embeddedEditorBackground": "--bg.neutral",
         "widget.shadow": "--shadow.neutral"
     },
+
     "semanticTokenColors": {
+        "namespace": {
+            "foreground": "--code.class",
+            "fontStyle": "italic",
+        },
+        "class": {
+            "foreground": "--code.class",
+            "fontStyle": "",
+        },
+        "enum": {
+            "foreground": "--code.class",
+            "fontStyle": "",
+        },
+        "interface": {
+            "foreground": "--code.class",
+            "fontStyle": "",
+        },
+        "struct": {
+            "foreground": "--code.class"
+        },
+        "typeParameter": {
+            "foreground": "--code.class"
+        },
+        "type": {
+            "foreground": "--code.class"
+        },
+        "parameter": {
+            "foreground": "--code.default",
+            "fontStyle": "italic"
+        },
+        "selfParameter": {
+            "foreground": "--code.keyword",
+            "fontStyle": "italic",
+        },
+        "clsParameter": {
+            "foreground": "--code.keyword",
+            "fontStyle": "italic",
+        },
+        "variable": {
+            "foreground": "--code.default",
+            "fontStyle": ""
+        },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"
@@ -365,25 +407,6 @@
         },
         "excludedCode": {
             "foreground": "--code.excluded",
-        },
-        "namespace": {
-            "foreground": "--code.class",
-            "fontStyle": "italic",
-        },
-        "struct": {
-            "foreground": "--code.class"
-        },
-        "class": {
-            "foreground": "--code.class",
-            "fontStyle": "",
-        },
-        "interface": {
-            "foreground": "--code.class",
-            "fontStyle": "",
-        },
-        "enum": {
-            "foreground": "--code.class",
-            "fontStyle": "",
         },
         "delegate": {
             "foreground": "--code.class",
@@ -448,18 +471,6 @@
             "foreground": "--code.function",
             "fontStyle": "underline"
         },
-        "parameter": {
-            "foreground": "--code.default",
-            "fontStyle": "italic"
-        },
-        "selfParameter": {
-            "foreground": "--code.keyword",
-            "fontStyle": "italic",
-        },
-        "clsParameter": {
-            "foreground": "--code.keyword",
-            "fontStyle": "italic",
-        },
         "enumMember": {
             "foreground": "--code.constant",
             "fontStyle": ""
@@ -467,6 +478,14 @@
         "constant": {
             "foreground": "--code.constant",
             "fontStyle": ""
+        },
+        "regexp": {
+            "foreground": "--code.constant",
+            "fontStyle": "italic"
+        },
+        "decorator": {
+            "foreground": "--code.decorator",
+            "fontStyle": "italic",
         },
         "*.decorator": {
             "foreground": "--code.decorator",
@@ -535,82 +554,42 @@
             }
         },
         {
-            "scope": "constant",
+            "scope": [
+                "constant.other.property",
+                "constant.other.php",
+                "constant.other.color",
+                "constant.other.citation.latex",
+                "constant.other.character-class.escape",
+                "constant.other.key",
+                "constant.language",
+                "constant.other",
+                "constant",
+                "source constant.other.caps.python"
+            ],
             "settings": {
                 "foreground": "--code.constant"
             }
         },
         {
-            "scope": "constant.other",
-            "settings": {
-                "foreground": "--code.default"
-            }
-        },
-        {
-            "scope": "constant.other.php",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.property",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.citation.latex",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.color",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.character-class.escape",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.key",
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "constant.other.symbol",
-            "settings": {
-                "foreground": "--code.property"
-            }
-        },
-        {
-            "scope": "constant.other.elm",
-            "settings": {
-                "foreground": "--code.class"
-            }
-        },
-        {
-            "scope": "constant.numeric",
+            "scope": [
+                "constant.other.symbol",
+                "constant.numeric"
+            ],
             "settings": {
                 "foreground": "--code.constant",
                 "fontStyle": "bold"
             }
         },
         {
-            "scope": "constant.language",
+            "scope": "constant.character.escape",
             "settings": {
                 "foreground": "--code.constant"
             }
         },
         {
-            "scope": "constant.character.escape",
+            "scope": "constant.other.elm",
             "settings": {
-                "foreground": "--code.constant"
+                "foreground": "--code.class"
             }
         },
         {
@@ -1068,6 +1047,7 @@
         },
         {
             "scope": [
+                "source.json support.type.property-name",
                 "source.json meta.structure.dictionary",
                 "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
                 "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary",
@@ -1102,7 +1082,8 @@
                 "source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string"
             ],
             "settings": {
-                "foreground": "--code.default"
+                "foreground": "--code.default",
+                "fontStyle": ""
             }
         },
         {
@@ -1125,7 +1106,8 @@
                 "source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string"
             ],
             "settings": {
-                "foreground": "--code.string"
+                "foreground": "--code.class",
+                "fontStyle": ""
             }
         },
         {
@@ -1168,13 +1150,8 @@
             }
         },
         {
-            "scope": "punctuation",
-            "settings": {
-                "foreground": "--code.meta"
-            }
-        },
-        {
             "scope": [
+                "punctuation",
                 "punctuation.definition.tag",
                 "punctuation.definition.tag source",
                 "punctuation.definition.group.begin.ruby",
@@ -1184,13 +1161,8 @@
                 "punctuation.definition.string.end.html source.css"
             ],
             "settings": {
-                "foreground": "--code.comment"
-            }
-        },
-        {
-            "scope": "punctuation.definition.group",
-            "settings": {
-                "foreground": "--code.default"
+                "foreground": "--code.meta",
+                "fontStyle": ""
             }
         },
         {
@@ -1211,9 +1183,9 @@
         },
         {
             "scope": [
+                "punctuation.section.embedded constant.other",
                 "punctuation.section.embedded",
                 "punctuation.section.embedded entity.name.tag",
-                "punctuation.section.embedded constant.other",
                 "punctuation.section.embedded source",
                 "punctuation.section.embedded.begin"
             ],
@@ -1460,7 +1432,8 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "--code.string"
+                "foreground": "--code.string",
+                "fontStyle": "italic"
             }
         },
         {
@@ -1532,7 +1505,7 @@
         {
             "scope": "support.constant",
             "settings": {
-                "foreground": "--code.class"
+                "foreground": "--code.constant"
             }
         },
         {
@@ -1703,7 +1676,7 @@
                 "source.ruby variable.other.readwrite.class.ruby"
             ],
             "settings": {
-                "foreground": "--code.constant"
+                "foreground": "--code.class"
             }
         },
         {
