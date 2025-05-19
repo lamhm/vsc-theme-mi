@@ -2,7 +2,7 @@
     "name": "mi-theme",
     "displayName": "MI Colour Theme",
     "description": "Optimized semantic highlighting for C#, C++, and Python",
-    "version": "25.5.10",
+    "version": "25.5.11",
     "author": "Ha Minh Lam",
     "publisher": "lamhm",
     "license": "MIT",
@@ -45,6 +45,111 @@
                 "uiTheme": "vs",
                 "path": "./themes/mi-light.json"
             }
-        ]
+        ],
+        "semanticTokenScopes": [
+            {
+                "language": "python",
+                "scopes": {
+                    "constant": [
+                        "source constant.other.caps.python",
+                        "constant.other.caps.python"
+                    ]
+                }
+            }
+        ],
+        "configurationDefaults": {
+            "better-comments.tags": [
+                {
+                    "tag": [
+                        "fixme",
+                        "@fixme",
+                        "bug",
+                        "error"
+                    ],
+                    "color": "#333333",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#d8003040",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                },
+                {
+                    "tag": [
+                        "warning",
+                        "@warning",
+                        "warn",
+                        "@warn"
+                    ],
+                    "color": "#333333",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#b0800040",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                },
+                {
+                    "tag": [
+                        "todo",
+                        "@todo",
+                        "?"
+                    ],
+                    "color": "#333333",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#1100dd40",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                }
+            ],
+            "better-comments.tagsDark": [
+                {
+                    "tag": [
+                        "fixme",
+                        "@fixme",
+                        "bug",
+                        "error"
+                    ],
+                    "color": "#cccccc",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#ff267260",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                },
+                {
+                    "tag": [
+                        "warning",
+                        "@warning",
+                        "warn",
+                        "@warn"
+                    ],
+                    "color": "#cccccc",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#eeee6060",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                },
+                {
+                    "tag": [
+                        "todo",
+                        "@todo",
+                        "?"
+                    ],
+                    "color": "#cccccc",
+                    "strikethrough": false,
+                    "underline": false,
+                    "backgroundColor": "#33bbff60",
+                    "bold": false,
+                    "italic": true,
+                    "multiline": true
+                }
+            ]
+        }
     }
 }
