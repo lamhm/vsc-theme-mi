@@ -71,6 +71,8 @@
         "strongOverlay.active": "#fafafa88",
 
         "code.default": "#f0f0f0",
+        "code.namespace": "#33bbff",
+        "code.namespaceHint": "#33bbffaa",
         "code.class": "#33bbff",
         "code.classHint": "#33bbffaa",
         "code.keyword": "#ff3682",

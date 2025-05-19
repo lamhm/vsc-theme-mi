@@ -354,6 +354,16 @@
             "foreground": "#1100ff",
             "fontStyle": "italic"
         },
+        "namespace.typeHint": {
+            "foreground": "#1100ffaa"
+        },
+        "module": {
+            "foreground": "#1100ff",
+            "fontStyle": "italic"
+        },
+        "module.typeHint": {
+            "foreground": "#1100ffaa"
+        },
         "class": {
             "foreground": "#1100ff",
             "fontStyle": ""
@@ -394,6 +404,10 @@
             "foreground": "#101010",
             "fontStyle": ""
         },
+        "variable.readonly": {
+            "foreground": "#b000c0",
+            "fontStyle": ""
+        },
         "string": {
             "foreground": "#0078b0",
             "fontStyle": "italic"
@@ -418,7 +432,8 @@
             "fontStyle": ""
         },
         "keyword": {
-            "foreground": "#d00000"
+            "foreground": "#d00000",
+            "fontStyle": ""
         },
         "keyword.overridden": {
             "foreground": "#d00000",
@@ -452,6 +467,14 @@
             "foreground": "#a06000",
             "fontStyle": "bold italic"
         },
+        "property.static.readonly": {
+            "foreground": "#b000c0",
+            "fontStyle": ""
+        },
+        "field.static.readonly": {
+            "foreground": "#b000c0",
+            "fontStyle": ""
+        },
         "event": {
             "foreground": "#008500",
             "fontStyle": "underline"
@@ -476,9 +499,11 @@
             "foreground": "#b000c0",
             "fontStyle": ""
         },
+        "constant.builtin": {
+            "italic": true
+        },
         "builtinConstant": {
-            "foreground": "#b000c0",
-            "fontStyle": ""
+            "italic": true
         },
         "constant.typeHint": {
             "foreground": "#b000c0aa"
@@ -731,7 +756,6 @@
         {
             "scope": "entity.other.inherited-class",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#1100ff"
             }
         },
@@ -1553,7 +1577,6 @@
                 "entity.name.type.object.console"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#1100ff"
             }
         },

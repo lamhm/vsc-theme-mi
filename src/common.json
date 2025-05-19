@@ -357,8 +357,18 @@
 
     "semanticTokenColors": {
         "namespace": {
-            "foreground": "--code.class",
+            "foreground": "--code.namespace",
             "fontStyle": "italic",
+        },
+        "namespace.typeHint": {
+            "foreground": "--code.namespaceHint"
+        },
+        "module": {
+            "foreground": "--code.namespace",
+            "fontStyle": "italic",
+        },
+        "module.typeHint": {
+            "foreground": "--code.namespaceHint"
         },
         "class": {
             "foreground": "--code.class",
@@ -400,6 +410,10 @@
             "foreground": "--code.default",
             "fontStyle": ""
         },
+        "variable.readonly": {
+            "foreground": "--code.constant",
+            "fontStyle": ""
+        },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"
@@ -425,6 +439,7 @@
         },
         "keyword": {
             "foreground": "--code.keyword",
+            "fontStyle": ""
         },
         "keyword.overridden": {
             "foreground": "--code.keyword",
@@ -458,6 +473,14 @@
             "foreground": "--code.static",
             "fontStyle": "bold italic"
         },
+        "property.static.readonly": {
+            "foreground": "--code.constant",
+            "fontStyle": ""
+        },
+        "field.static.readonly": {
+            "foreground": "--code.constant",
+            "fontStyle": ""
+        },
         "event": {
             "foreground": "--code.function",
             "fontStyle": "underline"
@@ -482,9 +505,11 @@
             "foreground": "--code.constant",
             "fontStyle": ""
         },
+        "constant.builtin": {
+            "italic": true
+        },
         "builtinConstant": {
-            "foreground": "--code.constant",
-            "fontStyle": ""
+            "italic": true
         },
         "constant.typeHint": {
             "foreground": "--code.constantHint",
@@ -737,7 +762,6 @@
         {
             "scope": "entity.other.inherited-class",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "--code.class"
             }
         },
@@ -1559,7 +1583,6 @@
                 "entity.name.type.object.console"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "--code.class"
             }
         },
