@@ -82,7 +82,7 @@
         "code.string": "#eeee60",
         "code.comment": "#696969",
         "code.commentHighlight": "#c3c3c3",
-        "code.meta": "#939393",
+        "code.meta": "#f0f0f0aa",
 
         "terminal.black": "#1c1c1c",
         "terminal.red": "#ff3682",
