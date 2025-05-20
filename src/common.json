@@ -404,14 +404,14 @@
             "foreground": "--code.keyword",
             "fontStyle": "italic",
         },
-        "variable": {
-            "foreground": "--code.default",
-            "fontStyle": ""
-        },
-        "variable.readonly": {
-            "foreground": "--code.constant",
-            "fontStyle": ""
-        },
+        // "variable": {
+        //     "foreground": "--code.default",
+        //     "fontStyle": ""
+        // },
+        // "variable.readonly": {
+        //     "foreground": "--code.constant",
+        //     "fontStyle": ""
+        // },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"

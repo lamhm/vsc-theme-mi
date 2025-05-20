@@ -400,14 +400,6 @@
             "foreground": "#d00000",
             "fontStyle": "italic"
         },
-        "variable": {
-            "foreground": "#101010",
-            "fontStyle": ""
-        },
-        "variable.readonly": {
-            "foreground": "#9000c0",
-            "fontStyle": ""
-        },
         "string": {
             "foreground": "#0070b0",
             "fontStyle": "italic"
