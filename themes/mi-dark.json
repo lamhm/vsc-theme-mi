@@ -599,7 +599,8 @@
                 "source constant.other.caps.python"
             ],
             "settings": {
-                "foreground": "#e080ff"
+                "foreground": "#e080ff",
+                "fontStyle": ""
             }
         },
         {
@@ -632,12 +633,6 @@
         },
         {
             "scope": "constant.numeric.line-number.match.find-in-files",
-            "settings": {
-                "foreground": "#eeee60"
-            }
-        },
-        {
-            "scope": "entity.name.section",
             "settings": {
                 "foreground": "#eeee60"
             }
@@ -767,7 +762,8 @@
                 "source.vue support.class.component"
             ],
             "settings": {
-                "foreground": "#ff3682"
+                "foreground": "#ff3682",
+                "fontStyle": ""
             }
         },
         {
@@ -970,27 +966,42 @@
             }
         },
         {
-            "scope": "markup.heading",
-            "settings": {
-                "foreground": "#eeee60"
-            }
-        },
-        {
-            "scope": "markup.raw",
-            "settings": {
-                "foreground": "#ffa011"
-            }
-        },
-        {
             "scope": "markup.underline",
             "settings": {
                 "fontStyle": "underline"
             }
         },
         {
+            "scope": [
+                "fenced_code.block",
+                "markup.fenced_code.block"
+            ],
+            "settings": {
+                "foreground": "#33bbffaa"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.section",
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#ff3682"
+            }
+        },
+        {
+            "scope": [
+                "markup.inline.raw",
+                "markup.raw"
+            ],
+            "settings": {
+                "foreground": "#33bbff"
+            }
+        },
+        {
             "scope": "markup.underline.link",
             "settings": {
-                "foreground": "#90f900"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1008,7 +1019,7 @@
                 "markup.deleted punctuation.definition.deleted"
             ],
             "settings": {
-                "foreground": "#ff3682"
+                "foreground": "#e080ff"
             }
         },
         {
@@ -1017,7 +1028,7 @@
                 "markup.changed punctuation.definition.changed"
             ],
             "settings": {
-                "foreground": "#eeee60"
+                "foreground": "#33bbff"
             }
         },
         {
@@ -1476,6 +1487,13 @@
             }
         },
         {
+            "scope": "string.unquoted.argument.shell",
+            "settings": {
+                "foreground": "#33bbff",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "string.unquoted.label",
             "settings": {
                 "foreground": "#f0f0f0"
@@ -1502,13 +1520,13 @@
                 "string.other.link.description"
             ],
             "settings": {
-                "foreground": "#ff3682"
+                "foreground": "#e080ff"
             }
         },
         {
             "scope": "string.other.link.description.title",
             "settings": {
-                "foreground": "#33bbff"
+                "foreground": "#eeee60"
             }
         },
         {
@@ -1605,6 +1623,22 @@
             }
         },
         {
+            "scope": [
+                "source.toml support.type.property-name.table"
+            ],
+            "settings": {
+                "foreground": "#ff3682"
+            }
+        },
+        {
+            "scope": [
+                "source.toml support.type.property-name.array"
+            ],
+            "settings": {
+                "foreground": "#33bbff"
+            }
+        },
+        {
             "scope": "text",
             "settings": {
                 "foreground": "#f0f0f0"
@@ -1662,7 +1696,8 @@
                 "source variable.other.readwrite"
             ],
             "settings": {
-                "foreground": "#f0f0f0"
+                "foreground": "#f0f0f0",
+                "fontStyle": ""
             }
         },
         {
