@@ -436,8 +436,7 @@
             "fontStyle": ""
         },
         "keyword": {
-            "foreground": "--code.keyword",
-            "fontStyle": ""
+            "foreground": "--code.keyword"
         },
         "keyword.overridden": {
             "foreground": "--code.keyword",
@@ -877,19 +876,9 @@
             }
         },
         {
-            "scope": "keyword.control",
-            "settings": {
-                "foreground": "--code.keyword"
-            }
-        },
-        {
-            "scope": "keyword.control.directive",
-            "settings": {
-                "foreground": "--code.keyword"
-            }
-        },
-        {
             "scope": [
+                "keyword.control",
+                "keyword.control.directive",
                 "keyword.operator",
                 "keyword.operator.member",
                 "keyword.operator.new"
@@ -977,11 +966,12 @@
         },
         {
             "scope": [
-                "fenced_code.block",
-                "markup.fenced_code.block"
+                "fenced_code.block.language",
+                "markup.fenced_code.block.language"
             ],
             "settings": {
-                "foreground": "--code.decorator"
+                "foreground": "--code.decorator",
+                "fontStyle": "italic"
             }
         },
         {
@@ -995,17 +985,21 @@
         },
         {
             "scope": [
+                "markup.fenced_code.block",
                 "markup.inline.raw",
                 "markup.raw"
             ],
             "settings": {
-                "foreground": "--code.class"
+                "foreground": "--code.class",
             }
         },
         {
-            "scope": "markup.underline.link",
+            "scope": [
+                "markup.underline.link",
+                "markup.link"
+            ],
             "settings": {
-                "foreground": "--code.string",
+                "foreground": "--code.constant",
             }
         },
         {
@@ -1447,6 +1441,7 @@
         {
             "scope": [
                 "storage.modifier.visibility.rust",
+                "storage.modifier.static.rust",
                 "storage.modifier.lifetime.rust"
             ],
             "settings": {
@@ -1468,14 +1463,6 @@
         },
         {
             "scope": [
-                "storage.modifier.static.rust"
-            ],
-            "settings": {
-                "foreground": "--code.static"
-            }
-        },
-        {
-            "scope": [
                 "keyword.other.rust",
                 "keyword.other.where.rust"
             ],
@@ -1488,6 +1475,16 @@
             "settings": {
                 "foreground": "--code.string",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.asciidoc string",
+                "text.html string",
+                "text.markdown string"
+            ],
+            "settings": {
+                "fontStyle": ""
             }
         },
         {
@@ -1518,21 +1515,17 @@
                 "foreground": "--code.meta"
             }
         },
-        {
-            "scope": [
-                "string.other.link.title",
-                "string.other.link.description"
-            ],
-            "settings": {
-                "foreground": "--code.constant"
-            }
-        },
-        {
-            "scope": "string.other.link.description.title",
-            "settings": {
-                "foreground": "--code.string"
-            }
-        },
+        // {
+        //     "scope": [
+        //         "string.other.link.title",
+        //         "string.other.link.description",
+        //         "string.other.link.description.title"
+        //     ],
+        //     "settings": {
+        //         "foreground": "--code.string",
+        //         "fontStyle": ""
+        //     }
+        // },
         {
             "scope": [
                 "string.regexp punctuation.definition.string.begin",
@@ -1769,27 +1762,56 @@
             }
         },
         {
-            "scope": "token.info-token",
+            "scope": [
+                "log.info",
+                "token.info-token"
+            ],
             "settings": {
-                "foreground": "--code.class"
+                "foreground": "--fg.info"
             }
         },
         {
-            "scope": "token.warn-token",
+            "scope": [
+                "log.warning",
+                "token.warn-token"
+            ],
             "settings": {
-                "foreground": "--code.property"
+                "foreground": "--fg.strongWarning"
             }
         },
         {
-            "scope": "token.error-token",
+            "scope": [
+                "log.error",
+                "token.error-token"
+            ],
             "settings": {
-                "foreground": "--code.keyword"
+                "foreground": "--fg.error"
             }
         },
         {
-            "scope": "token.debug-token",
+            "scope": [
+                "log.debug",
+                "token.debug-token"
+            ],
             "settings": {
-                "foreground": "--code.constant"
+                "foreground": "--fg.debug"
+            }
+        },
+        {
+            "scope": [
+                "log.exceptiontype",
+            ],
+            "settings": {
+                "foreground": "--code.keyword",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.log strong"
+            ],
+            "settings": {
+                "fontStyle": ""
             }
         }
     ]

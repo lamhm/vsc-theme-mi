@@ -432,8 +432,7 @@
             "fontStyle": ""
         },
         "keyword": {
-            "foreground": "#ff3682",
-            "fontStyle": ""
+            "foreground": "#ff3682"
         },
         "keyword.overridden": {
             "foreground": "#ff3682",
@@ -873,19 +872,9 @@
             }
         },
         {
-            "scope": "keyword.control",
-            "settings": {
-                "foreground": "#ff3682"
-            }
-        },
-        {
-            "scope": "keyword.control.directive",
-            "settings": {
-                "foreground": "#ff3682"
-            }
-        },
-        {
             "scope": [
+                "keyword.control",
+                "keyword.control.directive",
                 "keyword.operator",
                 "keyword.operator.member",
                 "keyword.operator.new"
@@ -973,11 +962,12 @@
         },
         {
             "scope": [
-                "fenced_code.block",
-                "markup.fenced_code.block"
+                "fenced_code.block.language",
+                "markup.fenced_code.block.language"
             ],
             "settings": {
-                "foreground": "#33bbffaa"
+                "foreground": "#33bbffaa",
+                "fontStyle": "italic"
             }
         },
         {
@@ -991,6 +981,7 @@
         },
         {
             "scope": [
+                "markup.fenced_code.block",
                 "markup.inline.raw",
                 "markup.raw"
             ],
@@ -999,9 +990,12 @@
             }
         },
         {
-            "scope": "markup.underline.link",
+            "scope": [
+                "markup.underline.link",
+                "markup.link"
+            ],
             "settings": {
-                "foreground": "#eeee60"
+                "foreground": "#e080ff"
             }
         },
         {
@@ -1443,6 +1437,7 @@
         {
             "scope": [
                 "storage.modifier.visibility.rust",
+                "storage.modifier.static.rust",
                 "storage.modifier.lifetime.rust"
             ],
             "settings": {
@@ -1464,14 +1459,6 @@
         },
         {
             "scope": [
-                "storage.modifier.static.rust"
-            ],
-            "settings": {
-                "foreground": "#ffa011"
-            }
-        },
-        {
-            "scope": [
                 "keyword.other.rust",
                 "keyword.other.where.rust"
             ],
@@ -1484,6 +1471,16 @@
             "settings": {
                 "foreground": "#eeee60",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                "text.asciidoc string",
+                "text.html string",
+                "text.markdown string"
+            ],
+            "settings": {
+                "fontStyle": ""
             }
         },
         {
@@ -1512,21 +1509,6 @@
             ],
             "settings": {
                 "foreground": "#f0f0f0aa"
-            }
-        },
-        {
-            "scope": [
-                "string.other.link.title",
-                "string.other.link.description"
-            ],
-            "settings": {
-                "foreground": "#e080ff"
-            }
-        },
-        {
-            "scope": "string.other.link.description.title",
-            "settings": {
-                "foreground": "#eeee60"
             }
         },
         {
@@ -1765,27 +1747,56 @@
             }
         },
         {
-            "scope": "token.info-token",
+            "scope": [
+                "log.info",
+                "token.info-token"
+            ],
             "settings": {
-                "foreground": "#33bbff"
+                "foreground": "#90f900"
             }
         },
         {
-            "scope": "token.warn-token",
+            "scope": [
+                "log.warning",
+                "token.warn-token"
+            ],
             "settings": {
                 "foreground": "#ffa011"
             }
         },
         {
-            "scope": "token.error-token",
+            "scope": [
+                "log.error",
+                "token.error-token"
+            ],
             "settings": {
                 "foreground": "#ff3682"
             }
         },
         {
-            "scope": "token.debug-token",
+            "scope": [
+                "log.debug",
+                "token.debug-token"
+            ],
             "settings": {
-                "foreground": "#e080ff"
+                "foreground": "#33bbff"
+            }
+        },
+        {
+            "scope": [
+                "log.exceptiontype"
+            ],
+            "settings": {
+                "foreground": "#ff3682",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "text.log strong"
+            ],
+            "settings": {
+                "fontStyle": ""
             }
         }
     ],

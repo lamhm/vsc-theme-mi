@@ -49,6 +49,7 @@
         "fg.debug": "#1100ff",
         "fg.info": "#008500",
         "fg.warning": "#a06000",
+        "fg.strongWarning": "#9000c0",
         "fg.error": "#d00000",
         "fg.deleted": "#9000c0",
         "fg.match": "#0070b0",
