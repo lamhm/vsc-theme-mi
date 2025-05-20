@@ -400,6 +400,9 @@
             "foreground": "#ff3682",
             "fontStyle": "italic"
         },
+        "variable.readonly": {
+            "foreground": "#e080ff"
+        },
         "string": {
             "foreground": "#eeee60",
             "fontStyle": "italic"

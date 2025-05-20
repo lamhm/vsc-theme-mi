@@ -408,10 +408,9 @@
         //     "foreground": "--code.default",
         //     "fontStyle": ""
         // },
-        // "variable.readonly": {
-        //     "foreground": "--code.constant",
-        //     "fontStyle": ""
-        // },
+        "variable.readonly": {
+            "foreground": "--code.constant"
+        },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"
