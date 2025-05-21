@@ -409,7 +409,7 @@
         },
         "number": {
             "foreground": "#e080ff",
-            "fontStyle": "bold"
+            "fontStyle": ""
         },
         "excludedCode": {
             "foreground": "#777777"
@@ -604,7 +604,7 @@
             ],
             "settings": {
                 "foreground": "#e080ff",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
@@ -1783,7 +1783,7 @@
             ],
             "settings": {
                 "foreground": "#ff3682",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {

@@ -417,7 +417,7 @@
         },
         "number": {
             "foreground": "--code.constant",
-            "fontStyle": "bold"
+            "fontStyle": ""
         },
         "excludedCode": {
             "foreground": "--code.excluded",
@@ -612,7 +612,7 @@
             ],
             "settings": {
                 "foreground": "--code.constant",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
@@ -1802,7 +1802,7 @@
             ],
             "settings": {
                 "foreground": "--code.keyword",
-                "fontStyle": "bold"
+                "fontStyle": ""
             }
         },
         {
