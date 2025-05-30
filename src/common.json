@@ -407,6 +407,9 @@
         "variable:cpp": {
             "foreground": "--code.default",
         },
+        "variable:python": {
+            "foreground": "--code.default",
+        },
         // "variable.readonly": {
         //     "foreground": "--code.constant"
         // },
@@ -473,8 +476,10 @@
             "fontStyle": ""
         },
         "macro": {
-            "foreground": "--code.constant",
-            "fontStyle": "underline"
+            "underline": true
+        },
+        "macro:csharp": {
+            "foreground": "--code.keyword"
         },
         "event": {
             "foreground": "--code.function",

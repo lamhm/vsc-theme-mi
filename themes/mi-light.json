@@ -403,6 +403,9 @@
         "variable:cpp": {
             "foreground": "#101010"
         },
+        "variable:python": {
+            "foreground": "#101010"
+        },
         "string": {
             "foreground": "#0070b0",
             "fontStyle": "italic"
@@ -466,8 +469,10 @@
             "fontStyle": ""
         },
         "macro": {
-            "foreground": "#9000c0",
-            "fontStyle": "underline"
+            "underline": true
+        },
+        "macro:csharp": {
+            "foreground": "#d00000"
         },
         "event": {
             "foreground": "#008500",
