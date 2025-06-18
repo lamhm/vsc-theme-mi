@@ -86,10 +86,11 @@
         "editorGutter.deletedBackground": "#9000c0",
         "editorGutter.modifiedBackground": "#1100ff",
         "editorHint.border": "#10101044",
-        "editorHint.foreground": "#66ffff",
-        "editorInlayHint.foreground": "#66ffff",
-        "editorInlayHint.typeForeground": "#1100ff88",
-        "editorInlayHint.parameterForeground": "#00850088",
+        "editorHint.foreground": "#55bbcc",
+        "editorInlayHint.foreground": "#55bbcc",
+        "editorInlayHint.typeForeground": "#55bbcc",
+        "editorInlayHint.parameterForeground": "#55bbcc",
+        "editorInlayHint.background": "#9000c00f",
         "editorHoverWidget.background": "#e9e8e7",
         "editorHoverWidget.border": "#10101044",
         "editorHoverWidget.foreground": "#101010",
@@ -407,6 +408,9 @@
         "variable:cpp": {
             "foreground": "#101010"
         },
+        "variable.readonly:cpp": {
+            "foreground": "#9000c0"
+        },
         "variable.readonly:python": {
             "foreground": "#9000c0"
         },
@@ -458,7 +462,7 @@
         },
         "property.static": {
             "foreground": "#a06000",
-            "fontStyle": "bold"
+            "fontStyle": "underline"
         },
         "property.static.readonly": {
             "foreground": "#9000c0",
@@ -474,7 +478,7 @@
         },
         "field.static": {
             "foreground": "#a06000",
-            "fontStyle": "bold italic"
+            "fontStyle": "italic underline"
         },
         "field.static.readonly": {
             "foreground": "#9000c0",
@@ -1851,17 +1855,19 @@
                 "source.cpp constant.language"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "foreground": "#d00000",
+                "fontStyle": ""
             }
         },
         {
             "scope": [
                 "source.cpp string.quoted.other.lt-gt.include",
-                "source.cpp string.quoted.double.include"
+                "source.cpp string.quoted.double.include",
+                "source.cpp meta.preprocessor.include"
             ],
             "settings": {
-                "foreground": "#0070b0",
-                "fontStyle": ""
+                "foreground": "#1100ff",
+                "fontStyle": "italic"
             }
         },
         {

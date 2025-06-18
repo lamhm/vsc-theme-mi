@@ -24,6 +24,7 @@
         "bgOverlay.warning": "#eeee603f",
         "bgOverlay.error": "#ff36823f",
         "bgOverlay.deleted": "#e080ff3f",
+        "bgOverlay.hint": "#e080ff0f",
         "bgOverlay.match": "#fafafa55",
         "bgOverlay.selected": "#fafafa22",
         "bgOverlay.hover": "#fafafa44",

@@ -91,8 +91,9 @@
         "editorHint.border": "--border.neutral",
         "editorHint.foreground": "--fg.hint",
         "editorInlayHint.foreground": "--fg.hint",
-        "editorInlayHint.typeForeground": "--strongOverlay.debug",
-        "editorInlayHint.parameterForeground": "--strongOverlay.info",
+        "editorInlayHint.typeForeground": "--fg.hint",
+        "editorInlayHint.parameterForeground": "--fg.hint",
+        "editorInlayHint.background": "--bgOverlay.hint",
         "editorHoverWidget.background": "--bg.neutral",
         "editorHoverWidget.border": "--border.neutral",
         "editorHoverWidget.foreground": "--fg.active",
@@ -411,6 +412,9 @@
         "variable:cpp": {
             "foreground": "--code.default"
         },
+        "variable.readonly:cpp": {
+            "foreground": "--code.constant"
+        },
         "variable.readonly:python": {
             "foreground": "--code.constant"
         },
@@ -462,7 +466,7 @@
         },
         "property.static": {
             "foreground": "--code.static",
-            "fontStyle": "bold"
+            "fontStyle": "underline"
         },
         "property.static.readonly": {
             "foreground": "--code.constant",
@@ -478,7 +482,7 @@
         },
         "field.static": {
             "foreground": "--code.static",
-            "fontStyle": "bold italic"
+            "fontStyle": "italic underline"
         },
         "field.static.readonly": {
             "foreground": "--code.constant",
@@ -1875,17 +1879,19 @@
                 "source.cpp constant.language"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "foreground": "--code.keyword",
+                "fontStyle": ""
             }
         },
         {
             "scope": [
                 "source.cpp string.quoted.other.lt-gt.include",
-                "source.cpp string.quoted.double.include"
+                "source.cpp string.quoted.double.include",
+                "source.cpp meta.preprocessor.include"
             ],
             "settings": {
-                "foreground": "--code.string",
-                "fontStyle": ""
+                "foreground": "--code.namespace",
+                "fontStyle": "italic"
             }
         },
         {

@@ -24,6 +24,7 @@
         "bgOverlay.warning": "#a060002f",
         "bgOverlay.error": "#d0000033",
         "bgOverlay.deleted": "#9000c02f",
+        "bgOverlay.hint": "#9000c00f",
         "bgOverlay.match": "#c580ff55",
         "bgOverlay.selected": "#10101022",
         "bgOverlay.hover": "#10101044",
@@ -54,7 +55,7 @@
         "fg.deleted": "#9000c0",
         "fg.match": "#0070b0",
         "fg.ignored": "#666666",
-        "fg.hint": "#66ffff",
+        "fg.hint": "#55bbcc",
 
 
         "overlay.debug": "#1100ff40",

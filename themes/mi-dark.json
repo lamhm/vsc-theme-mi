@@ -88,8 +88,9 @@
         "editorHint.border": "#fafafa44",
         "editorHint.foreground": "#006666",
         "editorInlayHint.foreground": "#006666",
-        "editorInlayHint.typeForeground": "#33bbff88",
-        "editorInlayHint.parameterForeground": "#90f90088",
+        "editorInlayHint.typeForeground": "#006666",
+        "editorInlayHint.parameterForeground": "#006666",
+        "editorInlayHint.background": "#e080ff0f",
         "editorHoverWidget.background": "#282828",
         "editorHoverWidget.border": "#fafafa44",
         "editorHoverWidget.foreground": "#fafafa",
@@ -407,6 +408,9 @@
         "variable:cpp": {
             "foreground": "#f0f0f0"
         },
+        "variable.readonly:cpp": {
+            "foreground": "#e080ff"
+        },
         "variable.readonly:python": {
             "foreground": "#e080ff"
         },
@@ -458,7 +462,7 @@
         },
         "property.static": {
             "foreground": "#ffa011",
-            "fontStyle": "bold"
+            "fontStyle": "underline"
         },
         "property.static.readonly": {
             "foreground": "#e080ff",
@@ -474,7 +478,7 @@
         },
         "field.static": {
             "foreground": "#ffa011",
-            "fontStyle": "bold italic"
+            "fontStyle": "italic underline"
         },
         "field.static.readonly": {
             "foreground": "#e080ff",
@@ -1851,17 +1855,19 @@
                 "source.cpp constant.language"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "foreground": "#ff3682",
+                "fontStyle": ""
             }
         },
         {
             "scope": [
                 "source.cpp string.quoted.other.lt-gt.include",
-                "source.cpp string.quoted.double.include"
+                "source.cpp string.quoted.double.include",
+                "source.cpp meta.preprocessor.include"
             ],
             "settings": {
-                "foreground": "#eeee60",
-                "fontStyle": ""
+                "foreground": "#33bbff",
+                "fontStyle": "italic"
             }
         },
         {
