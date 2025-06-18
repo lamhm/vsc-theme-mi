@@ -639,7 +639,8 @@
                 "entity.name.function",
                 "entity.name.function.templated",
                 "support.function.builtin.python",
-                "support.function"
+                "support.function",
+                "meta.function-call"
             ],
             "settings": {
                 "foreground": "#008500"
