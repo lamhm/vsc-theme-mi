@@ -1655,6 +1655,14 @@
             }
         },
         {
+            "scope": [
+                "meta.item-access"
+            ],
+            "settings": {
+                "foreground": "--code.default"
+            }
+        },
+        {
             "scope": "variable.other.enummember",
             "settings": {
                 "foreground": "--code.constant"

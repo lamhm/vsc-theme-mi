@@ -1640,6 +1640,14 @@
             }
         },
         {
+            "scope": [
+                "meta.item-access"
+            ],
+            "settings": {
+                "foreground": "#101010"
+            }
+        },
+        {
             "scope": "variable.other.enummember",
             "settings": {
                 "foreground": "#9000c0"
