@@ -356,32 +356,36 @@
     "semanticTokenColors": {
         "namespace": {
             "foreground": "--code.namespace",
-            "fontStyle": "italic",
+            "fontStyle": "italic"
         },
         "namespace.typeHint": {
             "foreground": "--code.namespaceHint"
         },
         "module": {
             "foreground": "--code.namespace",
-            "fontStyle": "italic",
+            "fontStyle": "italic"
         },
         "module.typeHint": {
             "foreground": "--code.namespaceHint"
         },
         "class": {
             "foreground": "--code.class",
-            "fontStyle": "",
+            "fontStyle": ""
+        },
+        "class.constructorOrDestructor": {
+            "foreground": "--code.function",
+            "fontStyle": ""
         },
         "class.typeHint": {
             "foreground": "--code.classHint"
         },
         "enum": {
             "foreground": "--code.class",
-            "fontStyle": "",
+            "fontStyle": ""
         },
         "interface": {
             "foreground": "--code.class",
-            "fontStyle": "",
+            "fontStyle": ""
         },
         "struct": {
             "foreground": "--code.class"
@@ -398,21 +402,18 @@
         },
         "selfParameter": {
             "foreground": "--code.keyword",
-            "fontStyle": "italic",
+            "fontStyle": "italic"
         },
         "clsParameter": {
             "foreground": "--code.keyword",
-            "fontStyle": "italic",
+            "fontStyle": "italic"
         },
         "variable:cpp": {
-            "foreground": "--code.default",
+            "foreground": "--code.default"
         },
-        "variable:python": {
-            "foreground": "--code.default",
+        "variable.readonly:python": {
+            "foreground": "--code.constant"
         },
-        // "variable.readonly": {
-        //     "foreground": "--code.constant"
-        // },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"
@@ -422,11 +423,11 @@
             "fontStyle": ""
         },
         "excludedCode": {
-            "foreground": "--code.excluded",
+            "foreground": "--code.excluded"
         },
         "delegate": {
             "foreground": "--code.class",
-            "fontStyle": "underline",
+            "fontStyle": "underline"
         },
         "operatorOverloaded": {
             "foreground": "--code.keyword",
@@ -451,25 +452,33 @@
             "foreground": "--code.comment",
             "fontStyle": "italic"
         },
-        "property": {
+        "property:csharp": {
             "foreground": "--code.property",
             "fontStyle": ""
         },
-        "field": {
+        "property:cpp": {
             "foreground": "--code.property",
-            "fontStyle": "italic"
+            "fontStyle": ""
         },
         "property.static": {
             "foreground": "--code.static",
             "fontStyle": "bold"
         },
-        "field.static": {
-            "foreground": "--code.static",
-            "fontStyle": "bold italic"
-        },
         "property.static.readonly": {
             "foreground": "--code.constant",
             "fontStyle": ""
+        },
+        "field:csharp": {
+            "foreground": "--code.property",
+            "fontStyle": "italic"
+        },
+        "field:cpp": {
+            "foreground": "--code.property",
+            "fontStyle": "italic"
+        },
+        "field.static": {
+            "foreground": "--code.static",
+            "fontStyle": "bold italic"
         },
         "field.static.readonly": {
             "foreground": "--code.constant",
@@ -512,7 +521,7 @@
             "italic": true
         },
         "constant.typeHint": {
-            "foreground": "--code.constantHint",
+            "foreground": "--code.constantHint"
         },
         "builtinConstant.typeHint": {
             "foreground": "--code.constantHint"
@@ -523,12 +532,12 @@
         },
         "decorator": {
             "foreground": "--code.decorator",
-            "fontStyle": "italic",
+            "fontStyle": "italic"
         },
         "*.decorator": {
             "foreground": "--code.decorator",
-            "fontStyle": "italic",
-        },
+            "fontStyle": "italic"
+        }
     },
     "tokenColors": [
         {
@@ -593,24 +602,6 @@
         },
         {
             "scope": [
-                "constant.other.property",
-                "constant.other.php",
-                "constant.other.color",
-                "constant.other.citation.latex",
-                "constant.other.character-class.escape",
-                "constant.other.key",
-                "constant.language",
-                "constant.other",
-                "constant",
-                "source constant.other.caps.python"
-            ],
-            "settings": {
-                "foreground": "--code.constant",
-                "fontStyle": ""
-            }
-        },
-        {
-            "scope": [
                 "constant.other.symbol",
                 "constant.numeric"
             ],
@@ -648,7 +639,7 @@
                 "entity.name.function",
                 "entity.name.function.templated",
                 "support.function.builtin.python",
-                "support.function",
+                "support.function"
             ],
             "settings": {
                 "foreground": "--code.function"
@@ -681,10 +672,10 @@
         {
             "scope": [
                 "entity.name.type.class.templated",
-                "entity.name.type.class.generic",
+                "entity.name.type.class.generic"
             ],
             "settings": {
-                "foreground": "--code.class",
+                "foreground": "--code.class"
             }
         },
         {
@@ -705,7 +696,7 @@
         },
         {
             "scope": [
-                "entity.name.function.preprocessor",
+                "entity.name.function.preprocessor"
             ],
             "settings": {
                 "foreground": "--code.constant",
@@ -715,7 +706,7 @@
         {
             "scope": [
                 "entity.name.variable.preprocessor.symbol.cs",
-                "entity.name.constant.preprocessor",
+                "entity.name.constant.preprocessor"
             ],
             "settings": {
                 "foreground": "--code.constant",
@@ -730,7 +721,7 @@
         },
         {
             "scope": [
-                "entity.name.constant",
+                "entity.name.constant"
             ],
             "settings": {
                 "foreground": "--code.constant"
@@ -975,7 +966,7 @@
                 "markup.raw"
             ],
             "settings": {
-                "foreground": "--code.class",
+                "foreground": "--code.class"
             }
         },
         {
@@ -984,7 +975,7 @@
                 "markup.link"
             ],
             "settings": {
-                "foreground": "--code.constant",
+                "foreground": "--code.constant"
             }
         },
         {
@@ -1089,7 +1080,7 @@
         },
         {
             "scope": [
-                "source.yaml entity.name.tag",
+                "source.yaml entity.name.tag"
             ],
             "settings": {
                 "foreground": "--code.keyword",
@@ -1545,7 +1536,13 @@
         {
             "scope": "support.variable",
             "settings": {
-                "foreground": "--code.class"
+                "foreground": "--code.property"
+            }
+        },
+        {
+            "scope": "support.variable.magic.python",
+            "settings": {
+                "fontStyle": "italic"
             }
         },
         {
@@ -1598,7 +1595,7 @@
             "scope": [
                 "source variable.parameter",
                 "parameters variable.function",
-                "source entity.name.variable.parameter",
+                "source entity.name.variable.parameter"
             ],
             "settings": {
                 "foreground": "--code.default",
@@ -1612,7 +1609,7 @@
                 "variable.parameter.function.language.special.cls.python"
             ],
             "settings": {
-                "foreground": "--code.keyword",
+                "foreground": "--code.keyword"
             }
         },
         {
@@ -1645,7 +1642,10 @@
             }
         },
         {
-            "scope": "variable.other.member",
+            "scope": [
+                "variable.other.member",
+                "meta.member.access"
+            ],
             "settings": {
                 "foreground": "--code.property"
             }
@@ -1659,12 +1659,19 @@
         {
             "scope": [
                 "field",
-                "variable.other.property",
-                "variable.other.event",
-                "meta.member.access"
+                "source variable.other.property"
             ],
             "settings": {
-                "foreground": "--code.function"
+                "foreground": "--code.property"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.event"
+            ],
+            "settings": {
+                "foreground": "--code.function",
+                "fontStyle": "underline"
             }
         },
         {
@@ -1689,6 +1696,25 @@
         },
         {
             "scope": [
+                "constant.other.property",
+                "constant.other.php",
+                "constant.other.color",
+                "constant.other.citation.latex",
+                "constant.other.character-class.escape",
+                "constant.other.key",
+                "constant.language",
+                "constant.other",
+                "constant",
+                "constant.other.caps.python",
+                "source.python constant.other.caps"
+            ],
+            "settings": {
+                "foreground": "--code.constant",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
                 "source.ruby variable.other.readwrite.instance.ruby",
                 "source.ruby variable.other.readwrite.class.ruby"
             ],
@@ -1708,6 +1734,9 @@
                 "foreground": "--code.property"
             }
         },
+        ////////////////////////////////////////////////////////////////////////////////////////////
+        // LOG FILES
+        ////////////////////////////////////////////////////////////////////////////////////////////
         {
             "scope": [
                 "log.info",
@@ -1746,7 +1775,7 @@
         },
         {
             "scope": [
-                "log.exceptiontype",
+                "log.exceptiontype"
             ],
             "settings": {
                 "foreground": "--code.keyword",
@@ -1843,7 +1872,7 @@
         },
         {
             "scope": [
-                "source.cpp constant.language",
+                "source.cpp constant.language"
             ],
             "settings": {
                 "fontStyle": "italic"

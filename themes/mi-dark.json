@@ -368,6 +368,10 @@
             "foreground": "#33bbff",
             "fontStyle": ""
         },
+        "class.constructorOrDestructor": {
+            "foreground": "#90f900",
+            "fontStyle": ""
+        },
         "class.typeHint": {
             "foreground": "#33bbffaa"
         },
@@ -403,8 +407,8 @@
         "variable:cpp": {
             "foreground": "#f0f0f0"
         },
-        "variable:python": {
-            "foreground": "#f0f0f0"
+        "variable.readonly:python": {
+            "foreground": "#e080ff"
         },
         "string": {
             "foreground": "#eeee60",
@@ -444,25 +448,33 @@
             "foreground": "#696969",
             "fontStyle": "italic"
         },
-        "property": {
+        "property:csharp": {
             "foreground": "#ffa011",
             "fontStyle": ""
         },
-        "field": {
+        "property:cpp": {
             "foreground": "#ffa011",
-            "fontStyle": "italic"
+            "fontStyle": ""
         },
         "property.static": {
             "foreground": "#ffa011",
             "fontStyle": "bold"
         },
-        "field.static": {
-            "foreground": "#ffa011",
-            "fontStyle": "bold italic"
-        },
         "property.static.readonly": {
             "foreground": "#e080ff",
             "fontStyle": ""
+        },
+        "field:csharp": {
+            "foreground": "#ffa011",
+            "fontStyle": "italic"
+        },
+        "field:cpp": {
+            "foreground": "#ffa011",
+            "fontStyle": "italic"
+        },
+        "field.static": {
+            "foreground": "#ffa011",
+            "fontStyle": "bold italic"
         },
         "field.static.readonly": {
             "foreground": "#e080ff",
@@ -582,24 +594,6 @@
             "scope": "comment.other.git-status.head",
             "settings": {
                 "foreground": "#f0f0f0"
-            }
-        },
-        {
-            "scope": [
-                "constant.other.property",
-                "constant.other.php",
-                "constant.other.color",
-                "constant.other.citation.latex",
-                "constant.other.character-class.escape",
-                "constant.other.key",
-                "constant.language",
-                "constant.other",
-                "constant",
-                "source constant.other.caps.python"
-            ],
-            "settings": {
-                "foreground": "#e080ff",
-                "fontStyle": ""
             }
         },
         {
@@ -1527,7 +1521,13 @@
         {
             "scope": "support.variable",
             "settings": {
-                "foreground": "#33bbff"
+                "foreground": "#ffa011"
+            }
+        },
+        {
+            "scope": "support.variable.magic.python",
+            "settings": {
+                "fontStyle": "italic"
             }
         },
         {
@@ -1627,7 +1627,10 @@
             }
         },
         {
-            "scope": "variable.other.member",
+            "scope": [
+                "variable.other.member",
+                "meta.member.access"
+            ],
             "settings": {
                 "foreground": "#ffa011"
             }
@@ -1641,12 +1644,19 @@
         {
             "scope": [
                 "field",
-                "variable.other.property",
-                "variable.other.event",
-                "meta.member.access"
+                "source variable.other.property"
             ],
             "settings": {
-                "foreground": "#90f900"
+                "foreground": "#ffa011"
+            }
+        },
+        {
+            "scope": [
+                "variable.other.event"
+            ],
+            "settings": {
+                "foreground": "#90f900",
+                "fontStyle": "underline"
             }
         },
         {
@@ -1667,6 +1677,25 @@
             "scope": "variable.other.substitution",
             "settings": {
                 "foreground": "#ffa011"
+            }
+        },
+        {
+            "scope": [
+                "constant.other.property",
+                "constant.other.php",
+                "constant.other.color",
+                "constant.other.citation.latex",
+                "constant.other.character-class.escape",
+                "constant.other.key",
+                "constant.language",
+                "constant.other",
+                "constant",
+                "constant.other.caps.python",
+                "source.python constant.other.caps"
+            ],
+            "settings": {
+                "foreground": "#e080ff",
+                "fontStyle": ""
             }
         },
         {
