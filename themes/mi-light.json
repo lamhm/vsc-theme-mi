@@ -1634,7 +1634,8 @@
         {
             "scope": [
                 "variable.other.member",
-                "meta.member.access"
+                "meta.member.access",
+                "meta.indexed-name"
             ],
             "settings": {
                 "foreground": "#a06000"
