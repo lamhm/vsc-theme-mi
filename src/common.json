@@ -421,6 +421,9 @@
         "variable.readonly:python": {
             "foreground": "--code.constant"
         },
+        "variable.builtin:python": {
+            "foreground": "--code.property"
+        },
         "string": {
             "foreground": "--code.string",
             "fontStyle": "italic"

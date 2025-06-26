@@ -417,6 +417,9 @@
         "variable.readonly:python": {
             "foreground": "#e080ff"
         },
+        "variable.builtin:python": {
+            "foreground": "#ffa011"
+        },
         "string": {
             "foreground": "#eeee60",
             "fontStyle": "italic"
