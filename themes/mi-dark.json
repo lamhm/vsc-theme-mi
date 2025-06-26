@@ -408,6 +408,9 @@
         "variable:cpp": {
             "foreground": "#f0f0f0"
         },
+        "variable:python": {
+            "foreground": "#f0f0f0"
+        },
         "variable.readonly:cpp": {
             "foreground": "#e080ff"
         },

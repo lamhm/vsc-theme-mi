@@ -412,6 +412,9 @@
         "variable:cpp": {
             "foreground": "--code.default"
         },
+        "variable:python": {
+            "foreground": "--code.default"
+        },
         "variable.readonly:cpp": {
             "foreground": "--code.constant"
         },
