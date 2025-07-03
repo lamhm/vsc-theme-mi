@@ -12,12 +12,12 @@
 
         "bg.highlightHover": "#d5a0ff",
         "bg.highlight": "#c580ff",
-        "bg.lineHighlight": "#1010100a",
-        "bg.activityBar": "#e2e1e0",
+        "bg.lineHighlight": "#e9e8e7",
+        "bg.activityBar": "#dfdedd",
         "bg.neutral": "#e9e8e7",
         "bg.editor": "#f9f8f7",
-        "bg.input": "#1010100a",
-        "bg.hover": "#10101022",
+        "bg.input": "#dfdedd",
+        "bg.hover": "#cfcecd",
 
         "bgOverlay.debug": "#1100ff2f",
         "bgOverlay.info": "#0085002f",
