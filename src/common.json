@@ -426,7 +426,6 @@
         },
         "string": {
             "foreground": "--code.string",
-            "fontStyle": "italic"
         },
         "number": {
             "foreground": "--code.constant",
@@ -1418,16 +1417,6 @@
         },
         {
             "scope": [
-                "source.csharp string",
-                "source.shell string",
-                "source.python string"
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
                 "text.asciidoc string",
                 "text.html string",
                 "text.markdown string"
@@ -1464,17 +1453,6 @@
                 "foreground": "--code.meta"
             }
         },
-        // {
-        //     "scope": [
-        //         "string.other.link.title",
-        //         "string.other.link.description",
-        //         "string.other.link.description.title"
-        //     ],
-        //     "settings": {
-        //         "foreground": "--code.string",
-        //         "fontStyle": ""
-        //     }
-        // },
         {
             "scope": [
                 "string.regexp punctuation.definition.string.begin",
@@ -1887,7 +1865,6 @@
             ],
             "settings": {
                 "foreground": "--code.string",
-                "fontStyle": "italic"
             }
         },
         {
