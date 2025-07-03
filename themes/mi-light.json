@@ -4,7 +4,7 @@
     "colors": {
         "editorUnnecessaryCode.opacity": "#000000c0",
         "activityBar.activeBorder": "#c580ff",
-        "activityBar.background": "#e2e1e0",
+        "activityBar.background": "#dfdedd",
         "activityBar.border": "#00000000",
         "activityBar.dropBorder": "#f9f8f7",
         "activityBar.foreground": "#232323",
@@ -47,11 +47,11 @@
         "diffEditor.removedLineBackground": "#00000000",
         "diffEditorGutter.insertedLineBackground": "#0085002f",
         "diffEditorGutter.removedLineBackground": "#9000c02f",
-        "checkbox.background": "#1010100a",
+        "checkbox.background": "#dfdedd",
         "checkbox.border": "#10101044",
-        "checkbox.selectBackground": "#1010100a",
+        "checkbox.selectBackground": "#dfdedd",
         "checkbox.selectBorder": "#10101088",
-        "dropdown.background": "#1010100a",
+        "dropdown.background": "#dfdedd",
         "dropdown.border": "#10101044",
         "dropdown.foreground": "#101010",
         "editor.background": "#f9f8f7",
@@ -62,7 +62,7 @@
         "editor.focusedStackFrameHighlightBackground": "#0085002f",
         "editor.foreground": "#101010",
         "editor.hoverHighlightBackground": "#c580ff40",
-        "editor.lineHighlightBackground": "#1010100a",
+        "editor.lineHighlightBackground": "#e9e8e7",
         "editor.rangeHighlightBackground": "#c580ff22",
         "editor.selectionBackground": "#10101022",
         "editor.selectionHighlightBackground": "#c580ff77",
@@ -156,14 +156,14 @@
         "gitDecoration.stageModifiedResourceForeground": "#1100ff",
         "gitDecoration.submoduleResourceForeground": "#666666",
         "gitDecoration.ignoredResourceForeground": "#666666",
-        "gitlens.gutterBackgroundColor": "#1010100a",
+        "gitlens.gutterBackgroundColor": "#e9e8e7",
         "gitlens.gutterForegroundColor": "#aaaaaa",
         "gitlens.gutterUncommittedForegroundColor": "#aaaaaa",
         "gitlens.lineHighlightBackgroundColor": "#0085002f",
         "gitlens.lineHighlightOverviewRulerColor": "#0085002f",
         "gitlens.trailingLineForegroundColor": "#aaaaaa",
         "icon.foreground": "#232323",
-        "input.background": "#1010100a",
+        "input.background": "#dfdedd",
         "input.border": "#10101044",
         "input.placeholderForeground": "#aaaaaa",
         "inputOption.activeBorder": "#c580ff",
@@ -269,7 +269,7 @@
         "statusBar.foreground": "#232323cc",
         "statusBarItem.hoverForeground": "#101010",
         "statusBar.noFolderBackground": "#e9e8e7",
-        "statusBarItem.hoverBackground": "#10101022",
+        "statusBarItem.hoverBackground": "#cfcecd",
         "statusBarItem.remoteForeground": "#101010",
         "statusBarItem.remoteBackground": "#c580ff",
         "statusBarItem.remoteHoverBackground": "#d5a0ff",
@@ -335,7 +335,7 @@
         "terminalCursor.foreground": "#101010c0",
         "textBlockQuote.background": "#e9e8e7",
         "textBlockQuote.border": "#c580ff",
-        "textCodeBlock.background": "#1010100a",
+        "textCodeBlock.background": "#e9e8e7",
         "textLink.activeForeground": "#b500df",
         "textLink.foreground": "#b500df",
         "textPreformat.foreground": "#232323",
@@ -343,7 +343,7 @@
         "titleBar.activeBackground": "#e9e8e7",
         "titleBar.activeForeground": "#232323cc",
         "titleBar.border": "#f9f8f7",
-        "titleBar.inactiveBackground": "#1010100a",
+        "titleBar.inactiveBackground": "#dfdedd",
         "titleBar.inactiveForeground": "#aaaaaa",
         "tree.indentGuidesStroke": "#10101055",
         "tree.inactiveIndentGuidesStroke": "#10101022",
@@ -421,8 +421,7 @@
             "foreground": "#a06000"
         },
         "string": {
-            "foreground": "#0070b0",
-            "fontStyle": "italic"
+            "foreground": "#0070b0"
         },
         "number": {
             "foreground": "#9000c0",
@@ -1414,16 +1413,6 @@
         },
         {
             "scope": [
-                "source.csharp string",
-                "source.shell string",
-                "source.python string"
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
                 "text.asciidoc string",
                 "text.html string",
                 "text.markdown string"
@@ -1862,8 +1851,7 @@
                 "source.cpp string"
             ],
             "settings": {
-                "foreground": "#0070b0",
-                "fontStyle": "italic"
+                "foreground": "#0070b0"
             }
         },
         {

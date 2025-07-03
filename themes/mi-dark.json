@@ -4,7 +4,7 @@
     "colors": {
         "editorUnnecessaryCode.opacity": "#000000c0",
         "activityBar.activeBorder": "#ae2055",
-        "activityBar.background": "#2d2d2e",
+        "activityBar.background": "#303030",
         "activityBar.border": "#00000000",
         "activityBar.dropBorder": "#1c1c1c",
         "activityBar.foreground": "#cccccc",
@@ -47,11 +47,11 @@
         "diffEditor.removedLineBackground": "#00000000",
         "diffEditorGutter.insertedLineBackground": "#90f9003f",
         "diffEditorGutter.removedLineBackground": "#e080ff3f",
-        "checkbox.background": "#fafafa0a",
+        "checkbox.background": "#303030",
         "checkbox.border": "#fafafa44",
-        "checkbox.selectBackground": "#fafafa0a",
+        "checkbox.selectBackground": "#303030",
         "checkbox.selectBorder": "#fafafa88",
-        "dropdown.background": "#fafafa0a",
+        "dropdown.background": "#303030",
         "dropdown.border": "#fafafa44",
         "dropdown.foreground": "#fafafa",
         "editor.background": "#1c1c1c",
@@ -163,7 +163,7 @@
         "gitlens.lineHighlightOverviewRulerColor": "#90f9003f",
         "gitlens.trailingLineForegroundColor": "#666666",
         "icon.foreground": "#cccccc",
-        "input.background": "#fafafa0a",
+        "input.background": "#303030",
         "input.border": "#fafafa44",
         "input.placeholderForeground": "#666666",
         "inputOption.activeBorder": "#ae2055",
@@ -269,7 +269,7 @@
         "statusBar.foreground": "#cccccccc",
         "statusBarItem.hoverForeground": "#fafafa",
         "statusBar.noFolderBackground": "#282828",
-        "statusBarItem.hoverBackground": "#fafafa22",
+        "statusBarItem.hoverBackground": "#484848",
         "statusBarItem.remoteForeground": "#fafafa",
         "statusBarItem.remoteBackground": "#ae2055",
         "statusBarItem.remoteHoverBackground": "#d12665",
@@ -343,7 +343,7 @@
         "titleBar.activeBackground": "#282828",
         "titleBar.activeForeground": "#cccccccc",
         "titleBar.border": "#1c1c1c",
-        "titleBar.inactiveBackground": "#fafafa0a",
+        "titleBar.inactiveBackground": "#303030",
         "titleBar.inactiveForeground": "#666666",
         "tree.indentGuidesStroke": "#fafafa55",
         "tree.inactiveIndentGuidesStroke": "#fafafa22",
@@ -421,8 +421,7 @@
             "foreground": "#ffa011"
         },
         "string": {
-            "foreground": "#eeee60",
-            "fontStyle": "italic"
+            "foreground": "#eeee60"
         },
         "number": {
             "foreground": "#e080ff",
@@ -1414,16 +1413,6 @@
         },
         {
             "scope": [
-                "source.csharp string",
-                "source.shell string",
-                "source.python string"
-            ],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
                 "text.asciidoc string",
                 "text.html string",
                 "text.markdown string"
@@ -1862,8 +1851,7 @@
                 "source.cpp string"
             ],
             "settings": {
-                "foreground": "#eeee60",
-                "fontStyle": "italic"
+                "foreground": "#eeee60"
             }
         },
         {
