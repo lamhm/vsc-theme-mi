@@ -54,6 +54,7 @@
         "dropdown.background": "--bg.input",
         "dropdown.border": "--border.neutral",
         "dropdown.foreground": "--fg.active",
+        "notebook.cellEditorBackground": "--bg.editor",
         "editor.background": "--bg.editor",
         "editor.findMatchBackground": "--bgOverlay.match",
         "editor.findMatchBorder": "--border.highlight",

@@ -54,6 +54,7 @@
         "dropdown.background": "#dfdedd",
         "dropdown.border": "#10101044",
         "dropdown.foreground": "#101010",
+        "notebook.cellEditorBackground": "#f9f8f7",
         "editor.background": "#f9f8f7",
         "editor.findMatchBackground": "#c580ff55",
         "editor.findMatchBorder": "#b500df88",
