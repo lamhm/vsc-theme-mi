@@ -451,8 +451,8 @@
             "fontStyle": ""
         },
         "preprocessorText": {
-            "foreground": "#9000c0",
-            "fontStyle": "underline"
+            "foreground": "#101010aa",
+            "fontStyle": ""
         },
         "comment": {
             "foreground": "#a0a0a0",
@@ -706,7 +706,7 @@
                 "entity.name.function.preprocessor"
             ],
             "settings": {
-                "foreground": "#9000c0",
+                "foreground": "#d00000",
                 "fontStyle": "underline"
             }
         },
@@ -716,8 +716,7 @@
                 "entity.name.constant.preprocessor"
             ],
             "settings": {
-                "foreground": "#9000c0",
-                "fontStyle": "underline"
+                "foreground": "#9000c0"
             }
         },
         {

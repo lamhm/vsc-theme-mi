@@ -455,8 +455,8 @@
             "fontStyle": ""
         },
         "preprocessorText": {
-            "foreground": "--code.constant",
-            "fontStyle": "underline"
+            "foreground": "--code.meta",
+            "fontStyle": ""
         },
         "comment": {
             "foreground": "--code.comment",
@@ -710,7 +710,7 @@
                 "entity.name.function.preprocessor"
             ],
             "settings": {
-                "foreground": "--code.constant",
+                "foreground": "--code.keyword",
                 "fontStyle": "underline"
             }
         },
@@ -720,8 +720,7 @@
                 "entity.name.constant.preprocessor"
             ],
             "settings": {
-                "foreground": "--code.constant",
-                "fontStyle": "underline"
+                "foreground": "--code.constant"
             }
         },
         {
