@@ -360,6 +360,12 @@
         "widget.shadow": "--shadow.neutral"
     },
     "semanticTokenColors": {
+        "variable.typeHint:python": {
+            "foreground": "--code.classHint"
+        },
+        "property.typeHint:python": {
+            "foreground": "--code.classHint"
+        },
         "namespace": {
             "foreground": "--code.namespace",
             "fontStyle": "italic"

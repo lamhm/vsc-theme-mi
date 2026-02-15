@@ -352,6 +352,12 @@
         "widget.shadow": "#fafafa22"
     },
     "semanticTokenColors": {
+        "variable.typeHint:python": {
+            "foreground": "#33bbffaa"
+        },
+        "property.typeHint:python": {
+            "foreground": "#33bbffaa"
+        },
         "namespace": {
             "foreground": "#33bbff",
             "fontStyle": "italic"
